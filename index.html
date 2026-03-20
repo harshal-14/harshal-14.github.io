@@ -3,714 +3,599 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Harshal Bhat - Robotics Engineer specializing in Computer Vision, Control Theory, and Machine Learning. MS Robotics from WPI.">
-  <meta name="author" content="Harshal Bhat">
-
-  <title>Harshal Bhat | Robotics Engineer</title>
+  <meta name="description" content="Harshal Bhat - Robotics Engineer specializing in Computer Vision, Control Systems, and Machine Learning.">
+  <title>Harshal Bhat — Robotics Engineer</title>
 
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
   <link rel="icon" href="./assets/favicon.ico">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-  <div class="scroll-progress"></div>
+  <div class="scroll-bar"></div>
 
-  <!-- Navigation -->
-  <nav class="nav">
-    <div class="nav-container">
-      <a href="#" class="nav-logo">Harshal Bhat</a>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="#" class="logo">Harshal Bhat</a>
 
-      <div class="nav-links">
-        <a href="#about" class="nav-link">About</a>
-        <a href="#experience" class="nav-link">Experience</a>
-        <a href="#projects" class="nav-link">Projects</a>
-        <a href="#skills" class="nav-link">Skills</a>
-        <a href="#contact" class="nav-link">Contact</a>
-      </div>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
 
-      <div class="nav-actions">
-        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
-          <svg id="sun-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
-          </svg>
-          <svg id="moon-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="display:none;">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
-          </svg>
+      <div class="header-actions">
+        <button class="theme-btn" id="themeToggle" aria-label="Toggle theme">
+          <svg id="sunIcon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+          <svg id="moonIcon" style="display:none" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
         </button>
-
-        <button class="mobile-menu-btn" aria-label="Toggle menu">
-          <span></span>
-          <span></span>
-          <span></span>
+        <button class="menu-btn" id="menuBtn" aria-label="Menu">
+          <span></span><span></span><span></span>
         </button>
       </div>
     </div>
-  </nav>
+  </header>
 
-  <!-- Hero -->
-  <section class="hero" id="hero">
-    <div class="container">
-      <div class="hero-content reveal">
-        <div class="hero-badge">Available for opportunities</div>
-        <h1 class="hero-name">Harshal Bhat</h1>
-        <p class="hero-title"><span class="typing-text">Robotics Engineer</span></p>
-        <p class="hero-desc">
-          Graduate student at WPI specializing in Control Theory, Computer Vision, and Reinforcement Learning. Building intelligent systems that perceive, reason, and act.
-        </p>
-
-        <div class="hero-actions">
-          <a href="mailto:hbhat@wpi.edu" class="btn btn-primary">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-            </svg>
-            Get in touch
-          </a>
-          <a href="https://drive.google.com/file/d/1x0MoU150V4IZbSn_91N5LGM9TgvznD4u/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-            </svg>
-            Resume
-          </a>
-        </div>
-
-        <div class="hero-links">
-          <a href="https://www.linkedin.com/in/harshal-bhat/" target="_blank" rel="noopener noreferrer" class="hero-link">
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-            </svg>
-            LinkedIn
-          </a>
-          <a href="https://github.com/harshal-14" target="_blank" rel="noopener noreferrer" class="hero-link">
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-            </svg>
-            GitHub
-          </a>
-          <a href="mailto:hbhat@wpi.edu" class="hero-link">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-            </svg>
-            hbhat@wpi.edu
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- About -->
-  <section class="section" id="about">
-    <div class="container">
-      <div class="about-grid">
-        <div class="about-image reveal">
-          <img src="./assets/images/profile2.png" alt="Harshal Bhat">
-        </div>
-        <div class="about-content reveal">
-          <div class="section-header">
-            <span class="section-label">About</span>
-            <h2 class="section-title">Background</h2>
-          </div>
-          <p>
-            I'm a graduate student pursuing a Master's degree in Robotics at Worcester Polytechnic Institute. My work focuses on the intersection of <strong>Control Theory, Perception, and Reinforcement Learning</strong>.
-          </p>
-          <p>
-            Currently seeking Spring 2025 Co-op and full-time opportunities. Throughout my academic journey, I've led multiple projects, organized technical workshops, and secured a startup grant for autonomous systems development.
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content fade-in">
+          <div class="hero-tag">Open to opportunities</div>
+          <h1 class="hero-title">Harshal Bhat</h1>
+          <p class="hero-role"><span id="typing">Robotics Engineer</span></p>
+          <p class="hero-desc">
+            MS Robotics student at WPI with expertise in computer vision, control systems, and machine learning. Building intelligent systems that perceive and interact with the world.
           </p>
 
-          <div class="about-stats">
-            <div class="stat">
-              <div class="stat-value">4.0</div>
-              <div class="stat-label">GPA</div>
-            </div>
-            <div class="stat">
-              <div class="stat-value">16+</div>
-              <div class="stat-label">Projects</div>
-            </div>
-            <div class="stat">
-              <div class="stat-value">2</div>
-              <div class="stat-label">Patents</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Education -->
-  <section class="section" id="education">
-    <div class="container">
-      <div class="section-header reveal">
-        <span class="section-label">Education</span>
-        <h2 class="section-title">Academic Background</h2>
-      </div>
-
-      <div class="education-grid">
-        <div class="education-card reveal reveal-delay-1">
-          <span class="education-date">May 2025</span>
-          <h3 class="education-degree">Master's in Robotics Engineering</h3>
-          <p class="education-school">Worcester Polytechnic Institute</p>
-          <p class="education-gpa">GPA: 4.00</p>
-        </div>
-
-        <div class="education-card reveal reveal-delay-2">
-          <span class="education-date">May 2022</span>
-          <h3 class="education-degree">B.Tech in Mechanical Engineering</h3>
-          <p class="education-school">VJTI, Mumbai University</p>
-          <p class="education-gpa">GPA: 8.28/10.0</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Experience -->
-  <section class="section" id="experience">
-    <div class="container">
-      <div class="section-header reveal">
-        <span class="section-label">Experience</span>
-        <h2 class="section-title">Work History</h2>
-      </div>
-
-      <div class="timeline">
-        <div class="timeline-item reveal">
-          <div class="timeline-dot"></div>
-          <div class="timeline-header">
-            <img src="./assets/images/magna_logo.png" alt="Magna" class="timeline-logo">
-            <div class="timeline-meta">
-              <span class="timeline-date">June 2025 — Present</span>
-              <h3 class="timeline-title">Embedded Firmware Engineer</h3>
-              <p class="timeline-company">Magna International, Lowell MA</p>
-            </div>
-          </div>
-          <ul class="timeline-desc">
-            <li>Document and implement enhancements in Lift and PDB firmware for AMRs</li>
-            <li>Troubleshoot Sick Safety LiDAR for PLC logic and add new features for custom safety fields</li>
-          </ul>
-        </div>
-
-        <div class="timeline-item reveal">
-          <div class="timeline-dot"></div>
-          <div class="timeline-header">
-            <img src="./assets/images/magna_logo.png" alt="Magna" class="timeline-logo">
-            <div class="timeline-meta">
-              <span class="timeline-date">May 2024 — Dec 2024</span>
-              <h3 class="timeline-title">Machine Learning / Product Intern</h3>
-              <p class="timeline-company">Magna International, Lowell MA</p>
-            </div>
-          </div>
-          <ul class="timeline-desc">
-            <li>Engineered a simulator emulating robot-software HTTP and gRPC API communication protocols</li>
-            <li>Increased development productivity by 10% through improved testing capabilities</li>
-            <li>Designed collision avoidance system fusing BLE sensors and Depth Camera, deployed on Jetson Nano</li>
-            <li>Working on Novel SLAM to optimize ORB-SLAM3 with lightweight relocalization pipeline</li>
-          </ul>
-        </div>
-
-        <div class="timeline-item reveal">
-          <div class="timeline-dot"></div>
-          <div class="timeline-header">
-            <img src="./assets/images/pwc_logo.png" alt="PwC" class="timeline-logo">
-            <div class="timeline-meta">
-              <span class="timeline-date">July 2022 — Aug 2023</span>
-              <h3 class="timeline-title">Technology Consultant</h3>
-              <p class="timeline-company">PwC India LLP</p>
-            </div>
-          </div>
-          <ul class="timeline-desc">
-            <li>Led AWS cloud migration and pipeline setup for 50 Qlik applications</li>
-            <li>Optimized AWS Redshift performance achieving 60% faster query response</li>
-            <li>Contributed to Spark scripts in AWS Athena with Docker, Bitbucket, JIRA integration</li>
-          </ul>
-        </div>
-
-        <div class="timeline-item reveal">
-          <div class="timeline-dot"></div>
-          <div class="timeline-header">
-            <img src="./assets/images/iit_ropar_logo.png" alt="IIT Ropar" class="timeline-logo">
-            <div class="timeline-meta">
-              <span class="timeline-date">May 2021 — Aug 2021</span>
-              <h3 class="timeline-title">R&D Intern</h3>
-              <p class="timeline-company">IIT Ropar, India</p>
-            </div>
-          </div>
-          <ul class="timeline-desc">
-            <li>Designed autonomous harvester navigating unknown environments using AMCL and odometry</li>
-            <li>Integrated IMU, GPS, encoder data with ROS packages for navigation</li>
-            <li>Published patent at The Indian Patent Office Journal</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Publications -->
-  <section class="section" id="publications">
-    <div class="container">
-      <div class="section-header reveal">
-        <span class="section-label">Publications</span>
-        <h2 class="section-title">Patents & Research</h2>
-      </div>
-
-      <div class="publications-list">
-        <div class="publication-item reveal">
-          <span class="publication-badge granted">Granted</span>
-          <h3 class="publication-title">An Autonomous System For Low Payload Gripper Changing Mechanism and its Method Thereof</h3>
-          <p class="publication-link">
-            <a href="https://drive.google.com/file/d/1Urgpw1ZwmvY5-VOZqXX7rW7A161gB6T-/view?usp=drive_link" target="_blank">
-              Indian Patent Office, Patent No. 528223 — March 2024
+          <div class="hero-buttons">
+            <a href="mailto:hbhat@wpi.edu" class="btn btn-primary">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+              Get in touch
             </a>
-          </p>
-        </div>
-
-        <div class="publication-item reveal">
-          <span class="publication-badge published">Under Review</span>
-          <h3 class="publication-title">Automatic Harvester</h3>
-          <p class="publication-link">
-            <a href="https://drive.google.com/file/d/1T6IYu5fffr7Db92-v-9Kk-8SU-qcPTuT/view?usp=drive_link" target="_blank">
-              Indian Patent Office Journal No. 12/2022 — March 2022
+            <a href="https://drive.google.com/file/d/1x0MoU150V4IZbSn_91N5LGM9TgvznD4u/view?usp=sharing" target="_blank" class="btn btn-outline">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+              Resume
             </a>
-          </p>
-        </div>
+          </div>
 
-        <div class="publication-item reveal">
-          <span class="publication-badge published">Conference</span>
-          <h3 class="publication-title">Vibration Analysis of Hydrodynamic Conical Journal Bearing and Fault Prediction using Machine Learning</h3>
-          <p class="publication-link">
-            <a href="https://docs.google.com/presentation/d/1ZSrbJSGOIi3Da6MVqs85CYYQjUyZHfWa/edit#slide=id.p1" target="_blank">
-              ICIT 2022, New Delhi — Speaker, 1st Author
+          <div class="hero-links">
+            <a href="https://linkedin.com/in/harshal-bhat" target="_blank" class="hero-link">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              LinkedIn
             </a>
-          </p>
+            <a href="https://github.com/harshal-14" target="_blank" class="hero-link">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              GitHub
+            </a>
+            <a href="mailto:hbhat@wpi.edu" class="hero-link">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+              hbhat@wpi.edu
+            </a>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Research -->
-  <section class="section" id="research">
-    <div class="container">
-      <div class="section-header reveal">
-        <span class="section-label">Research</span>
-        <h2 class="section-title">Academic Research</h2>
-      </div>
-
-      <div class="research-grid">
-        <div class="research-card reveal">
-          <span class="research-date">Aug 2023 — Dec 2023</span>
-          <h3 class="research-title">Multi-agent Formation Control & Target Localization</h3>
-          <p class="research-advisor">Advisor: Dr. Siavesh Farzan, Cal Poly</p>
-          <p class="research-desc">
-            Implementing consensus-based localization algorithms for multi-agent systems. Developing Unscented Distributed Kalman filtering for UAVs and warehouse robots under localization errors.
-          </p>
-        </div>
-
-        <div class="research-card reveal">
-          <span class="research-date">Jun 2021 — Aug 2021</span>
-          <h3 class="research-title">Motion Planning for Autonomous Driving</h3>
-          <p class="research-advisor">Advisor: Dr. Arpita Sinha, IIT Bombay</p>
-          <p class="research-desc">
-            Implemented quintic Bezier curves for smooth trajectory generation in autonomous driving DRL systems. Simulated and validated in CARLA simulator.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Projects -->
-  <section class="section" id="projects">
-    <div class="container">
-      <div class="section-header reveal">
-        <span class="section-label">Projects</span>
-        <h2 class="section-title">Selected Work</h2>
-        <p class="section-subtitle">Technical projects in robotics, computer vision, and control systems</p>
-      </div>
-
-      <div class="filter-buttons reveal">
-        <button class="filter-btn active" data-filter="all">All</button>
-        <button class="filter-btn" data-filter="cv">Computer Vision</button>
-        <button class="filter-btn" data-filter="controls">Controls</button>
-        <button class="filter-btn" data-filter="planning">Planning</button>
-        <button class="filter-btn" data-filter="embedded">Embedded</button>
-      </div>
-
-      <div class="projects-grid">
-        <div class="project-card reveal" data-category="cv">
-          <div class="project-image">
-            <img src="./assets/images/stack-a-bot.gif" alt="Stack-A-Bot">
-            <div class="project-overlay">
-              <a href="https://github.com/harshal-14/STACK-A-BOT.git" target="_blank" class="project-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-                GitHub
-              </a>
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-image fade-in">
+            <img src="./assets/images/profile2.png" alt="Harshal Bhat">
+          </div>
+          <div class="about-text fade-in">
+            <div class="section-header">
+              <p class="section-label">About</p>
+              <h2 class="section-title">Background</h2>
             </div>
-          </div>
-          <div class="project-content">
-            <h3 class="project-title">STACK-A-BOT Perception Pipeline</h3>
-            <div class="project-tags">
-              <span class="project-tag">DUST3R</span>
-              <span class="project-tag">Point Cloud</span>
-              <span class="project-tag">3D Vision</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="project-card reveal" data-category="cv">
-          <div class="project-image">
-            <img src="./assets/images/out.gif" alt="Stereo Vision">
-            <div class="project-overlay">
-              <a href="https://github.com/lucifer2700" target="_blank" class="project-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-                GitHub
-              </a>
-            </div>
-          </div>
-          <div class="project-content">
-            <h3 class="project-title">3D Stereo Vision for Pseudo LiDAR</h3>
-            <div class="project-tags">
-              <span class="project-tag">OpenCV</span>
-              <span class="project-tag">SGBM</span>
-              <span class="project-tag">Depth</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="project-card reveal" data-category="cv">
-          <div class="project-image">
-            <img src="./assets/images/Segmentation_final_video.gif" alt="Road Segmentation">
-            <div class="project-overlay">
-              <a href="https://github.com/Lucifer2700/UCBerkley_Segmentation" target="_blank" class="project-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-                GitHub
-              </a>
-            </div>
-          </div>
-          <div class="project-content">
-            <h3 class="project-title">Road Segmentation for Autonomous Driving</h3>
-            <div class="project-tags">
-              <span class="project-tag">U-Net</span>
-              <span class="project-tag">BDD100K</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="project-card reveal" data-category="cv">
-          <div class="project-image">
-            <img src="./assets/images/Kalman Filter tracking.gif" alt="Kalman Filter">
-            <div class="project-overlay">
-              <a href="https://github.com/Lucifer2700/Kalman_filters" target="_blank" class="project-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-                GitHub
-              </a>
-            </div>
-          </div>
-          <div class="project-content">
-            <h3 class="project-title">Unscented Kalman Filter Tracking</h3>
-            <div class="project-tags">
-              <span class="project-tag">UKF</span>
-              <span class="project-tag">Python</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="project-card reveal" data-category="cv">
-          <div class="project-image">
-            <img src="./assets/images/styled_cat.jpg" alt="Neural Style Transfer">
-            <div class="project-overlay">
-              <a href="https://github.com/harshal-14/Zero-shot_Sematic_NST.git" target="_blank" class="project-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-                GitHub
-              </a>
-            </div>
-          </div>
-          <div class="project-content">
-            <h3 class="project-title">Zero-Shot Neural Style Transfer</h3>
-            <div class="project-tags">
-              <span class="project-tag">VGG19</span>
-              <span class="project-tag">PyTorch</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="project-card reveal" data-category="controls planning">
-          <div class="project-image">
-            <img src="./assets/images/drone_traj.gif" alt="UAV Control">
-            <div class="project-overlay">
-              <a href="https://github.com/atreyabhat/RBE502_UAV_Interceptor" target="_blank" class="project-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-                GitHub
-              </a>
-            </div>
-          </div>
-          <div class="project-content">
-            <h3 class="project-title">UAV Interception with LQR Control</h3>
-            <div class="project-tags">
-              <span class="project-tag">LQR</span>
-              <span class="project-tag">MATLAB</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="project-card reveal" data-category="controls">
-          <div class="project-image">
-            <img src="./assets/images/acc.gif" alt="ACC">
-            <div class="project-overlay">
-              <a href="https://github.com/harshal-14/Adaptive_Cruise_Control_System_using_MATLAB" target="_blank" class="project-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-                GitHub
-              </a>
-            </div>
-          </div>
-          <div class="project-content">
-            <h3 class="project-title">Adaptive Cruise Control System</h3>
-            <div class="project-tags">
-              <span class="project-tag">MPC</span>
-              <span class="project-tag">Simulink</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="project-card reveal" data-category="planning">
-          <div class="project-image">
-            <img src="./assets/images/dep_cafe.gif" alt="Exploration">
-            <div class="project-overlay">
-              <a href="https://github.com/harshal-14/Dynamic-exploration-planning.git" target="_blank" class="project-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-                GitHub
-              </a>
-            </div>
-          </div>
-          <div class="project-content">
-            <h3 class="project-title">DynaPRM: UAV Exploration Planning</h3>
-            <div class="project-tags">
-              <span class="project-tag">PRM</span>
-              <span class="project-tag">ROS</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="project-card reveal" data-category="embedded">
-          <div class="project-image">
-            <img src="./assets/images/layout.jpg" alt="Vibration Analysis">
-            <div class="project-overlay">
-              <a href="https://drive.google.com/file/d/1RtwcnEjov10-Yr5GCeMcdahW4RewRdyT/view?usp=sharing" target="_blank" class="project-link">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
-                Thesis
-              </a>
-            </div>
-          </div>
-          <div class="project-content">
-            <h3 class="project-title">ML-Based Vibration Analysis</h3>
-            <div class="project-tags">
-              <span class="project-tag">CNN</span>
-              <span class="project-tag">SVM</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="project-card reveal" data-category="cv">
-          <div class="project-image">
-            <img src="./assets/images/autopano.png" alt="AutoPano">
-          </div>
-          <div class="project-content">
-            <h3 class="project-title">Automatic Panorama Stitching</h3>
-            <div class="project-tags">
-              <span class="project-tag">Homography</span>
-              <span class="project-tag">RANSAC</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="project-card reveal" data-category="cv">
-          <div class="project-image">
-            <img src="./assets/images/wo_ba_3.png" alt="SfM">
-          </div>
-          <div class="project-content">
-            <h3 class="project-title">Structure from Motion</h3>
-            <div class="project-tags">
-              <span class="project-tag">Bundle Adj.</span>
-              <span class="project-tag">3D</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="project-card reveal" data-category="cv">
-          <div class="project-image">
-            <img src="./assets/images/NeRF.gif" alt="NeRF">
-          </div>
-          <div class="project-content">
-            <h3 class="project-title">Neural Radiance Fields</h3>
-            <div class="project-tags">
-              <span class="project-tag">NeRF</span>
-              <span class="project-tag">PyTorch</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="project-card reveal" data-category="cv">
-          <div class="project-image">
-            <img src="./assets/images/einstein-vision.gif" alt="Einstein Vision">
-          </div>
-          <div class="project-content">
-            <h3 class="project-title">Einstein Vision Pipeline</h3>
-            <div class="project-tags">
-              <span class="project-tag">YOLOv8</span>
-              <span class="project-tag">ZoeDepth</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="project-card reveal" data-category="cv">
-          <div class="project-image">
-            <img src="./assets/images/deep-vio.jpg" alt="Deep VIO">
-          </div>
-          <div class="project-content">
-            <h3 class="project-title">Deep Visual-Inertial Odometry</h3>
-            <div class="project-tags">
-              <span class="project-tag">VIO</span>
-              <span class="project-tag">IMU</span>
+            <p>
+              I'm a graduate student pursuing my Master's in Robotics at Worcester Polytechnic Institute. My research interests span <strong>control theory, computer vision, and reinforcement learning</strong>.
+            </p>
+            <p>
+              I've led multiple technical projects, published patents, and secured startup funding for autonomous systems. Currently seeking full-time opportunities starting Spring 2025.
+            </p>
+            <div class="about-stats">
+              <div>
+                <div class="stat-number">4.0</div>
+                <div class="stat-label">GPA</div>
+              </div>
+              <div>
+                <div class="stat-number">16+</div>
+                <div class="stat-label">Projects</div>
+              </div>
+              <div>
+                <div class="stat-number">2</div>
+                <div class="stat-label">Patents</div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Skills -->
-  <section class="section" id="skills">
-    <div class="container">
-      <div class="section-header reveal">
-        <span class="section-label">Skills</span>
-        <h2 class="section-title">Technical Expertise</h2>
-      </div>
-
-      <div class="skills-grid reveal">
-        <div class="skill-category">
-          <h3>Languages</h3>
-          <div class="skill-list">
-            <span class="skill-item">Python</span>
-            <span class="skill-item">C++</span>
-            <span class="skill-item">MATLAB</span>
-            <span class="skill-item">SQL</span>
-          </div>
+    <!-- Education -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-header fade-in">
+          <p class="section-label">Education</p>
+          <h2 class="section-title">Academic Background</h2>
         </div>
-
-        <div class="skill-category">
-          <h3>Frameworks</h3>
-          <div class="skill-list">
-            <span class="skill-item">ROS2</span>
-            <span class="skill-item">PyTorch</span>
-            <span class="skill-item">OpenCV</span>
-            <span class="skill-item">TensorFlow</span>
+        <div class="edu-grid">
+          <div class="edu-card fade-in">
+            <p class="edu-date">2023 — 2025</p>
+            <h3 class="edu-degree">MS Robotics Engineering</h3>
+            <p class="edu-school">Worcester Polytechnic Institute</p>
+            <p class="edu-gpa">GPA: 4.00</p>
           </div>
-        </div>
-
-        <div class="skill-category">
-          <h3>Tools</h3>
-          <div class="skill-list">
-            <span class="skill-item">Git</span>
-            <span class="skill-item">Docker</span>
-            <span class="skill-item">AWS</span>
-            <span class="skill-item">Linux</span>
-          </div>
-        </div>
-
-        <div class="skill-category">
-          <h3>Simulators</h3>
-          <div class="skill-list">
-            <span class="skill-item">CARLA</span>
-            <span class="skill-item">Gazebo</span>
-            <span class="skill-item">AirSim</span>
-            <span class="skill-item">Simulink</span>
+          <div class="edu-card fade-in">
+            <p class="edu-date">2018 — 2022</p>
+            <h3 class="edu-degree">BTech Mechanical Engineering</h3>
+            <p class="edu-school">VJTI, Mumbai University</p>
+            <p class="edu-gpa">GPA: 8.28/10</p>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Honours -->
-  <section class="section" id="honours">
-    <div class="container">
-      <div class="split-section">
-        <div class="split-card reveal">
-          <h3>Activities</h3>
-          <div class="split-item">
-            <span class="split-date">Aug 2023 — Present</span>
-            <h4 class="split-title">Graduate Student Researcher, WPI</h4>
-          </div>
-          <div class="split-item">
-            <span class="split-date">Jan 2020 — Apr 2021</span>
-            <h4 class="split-title">Core Team, SAE VJTI Racing</h4>
-          </div>
-          <div class="split-item">
-            <span class="split-date">Nov 2019 — Dec 2019</span>
-            <h4 class="split-title">Robosumo Head, Technovanza VJTI</h4>
-          </div>
+    <!-- Experience -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-header fade-in">
+          <p class="section-label">Experience</p>
+          <h2 class="section-title">Work History</h2>
         </div>
-
-        <div class="split-card reveal">
-          <h3>Honours</h3>
-          <div class="split-item">
-            <span class="split-date">Feb 2022</span>
-            <h4 class="split-title">Startup Grant — IIT Ropar</h4>
-            <p class="split-desc">$12,000 USD grant for autonomous harvesting robot venture</p>
+        <div class="exp-list">
+          <div class="exp-item fade-in">
+            <div class="exp-logo">
+              <img src="./assets/images/magna_logo.png" alt="Magna">
+            </div>
+            <div>
+              <div class="exp-header">
+                <div>
+                  <h3 class="exp-title">Embedded Firmware Engineer</h3>
+                  <p class="exp-company">Magna International</p>
+                </div>
+                <span class="exp-date">Jun 2025 — Present</span>
+              </div>
+              <ul class="exp-desc">
+                <li>Implementing firmware enhancements for Lift and PDB systems on AMRs</li>
+                <li>Developing PLC logic for Sick Safety LiDAR custom safety fields</li>
+              </ul>
+            </div>
           </div>
-          <div class="split-item">
-            <span class="split-date">Jan 2022</span>
-            <h4 class="split-title">IEEE VJTI Paper Presentation — 1st Runner Up</h4>
-            <p class="split-desc">Behavioral cloning for autonomous vehicles using imitation learning</p>
+
+          <div class="exp-item fade-in">
+            <div class="exp-logo">
+              <img src="./assets/images/magna_logo.png" alt="Magna">
+            </div>
+            <div>
+              <div class="exp-header">
+                <div>
+                  <h3 class="exp-title">ML / Product Intern</h3>
+                  <p class="exp-company">Magna International</p>
+                </div>
+                <span class="exp-date">May — Dec 2024</span>
+              </div>
+              <ul class="exp-desc">
+                <li>Built HTTP/gRPC API simulator enabling offshore UI development without hardware</li>
+                <li>Designed collision avoidance system fusing BLE + depth camera, deployed on Jetson Nano</li>
+                <li>Optimizing ORB-SLAM3 with lightweight structure graph relocalization</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="exp-item fade-in">
+            <div class="exp-logo">
+              <img src="./assets/images/pwc_logo.png" alt="PwC">
+            </div>
+            <div>
+              <div class="exp-header">
+                <div>
+                  <h3 class="exp-title">Technology Consultant</h3>
+                  <p class="exp-company">PwC India</p>
+                </div>
+                <span class="exp-date">Jul 2022 — Aug 2023</span>
+              </div>
+              <ul class="exp-desc">
+                <li>Led AWS cloud migration for 50 Qlik applications with data visualization pipelines</li>
+                <li>Optimized Redshift queries achieving 60% performance improvement</li>
+                <li>Developed Spark scripts with Docker, Bitbucket, JIRA integration</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="exp-item fade-in">
+            <div class="exp-logo">
+              <img src="./assets/images/iit_ropar_logo.png" alt="IIT Ropar">
+            </div>
+            <div>
+              <div class="exp-header">
+                <div>
+                  <h3 class="exp-title">R&D Intern</h3>
+                  <p class="exp-company">IIT Ropar</p>
+                </div>
+                <span class="exp-date">May — Aug 2021</span>
+              </div>
+              <ul class="exp-desc">
+                <li>Designed autonomous harvester with AMCL navigation for 15 crop types</li>
+                <li>Integrated IMU, GPS, encoders with ROS mapviz and Google Maps API</li>
+                <li>Published patent at Indian Patent Office</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Contact -->
-  <section class="section" id="contact">
-    <div class="container">
-      <div class="section-header reveal">
-        <span class="section-label">Contact</span>
-        <h2 class="section-title">Get in Touch</h2>
-      </div>
-
-      <div class="contact-content reveal">
-        <p>
-          I'm currently seeking Spring 2025 Co-op and full-time opportunities. Feel free to reach out if you'd like to connect.
-        </p>
-        <div class="contact-buttons">
-          <a href="mailto:hbhat@wpi.edu" class="btn btn-primary">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-            </svg>
-            Send Email
-          </a>
-          <a href="https://drive.google.com/file/d/1x0MoU150V4IZbSn_91N5LGM9TgvznD4u/view?usp=sharing" target="_blank" class="btn btn-secondary">
-            View Resume
-          </a>
+    <!-- Publications -->
+    <section class="section" id="publications">
+      <div class="container">
+        <div class="section-header fade-in">
+          <p class="section-label">Research</p>
+          <h2 class="section-title">Patents & Publications</h2>
+        </div>
+        <div class="pub-list">
+          <div class="pub-item fade-in">
+            <span class="pub-badge granted">Granted</span>
+            <h3 class="pub-title">An Autonomous System For Low Payload Gripper Changing Mechanism</h3>
+            <p class="pub-link">Indian Patent No. 528223 — <a href="https://drive.google.com/file/d/1Urgpw1ZwmvY5-VOZqXX7rW7A161gB6T-/view" target="_blank">View Patent</a></p>
+          </div>
+          <div class="pub-item fade-in">
+            <span class="pub-badge review">Under Review</span>
+            <h3 class="pub-title">Automatic Harvester</h3>
+            <p class="pub-link">Indian Patent Office Journal 12/2022 — <a href="https://drive.google.com/file/d/1T6IYu5fffr7Db92-v-9Kk-8SU-qcPTuT/view" target="_blank">View Application</a></p>
+          </div>
+          <div class="pub-item fade-in">
+            <span class="pub-badge conference">Conference</span>
+            <h3 class="pub-title">Vibration Analysis of Hydrodynamic Conical Journal Bearing using ML</h3>
+            <p class="pub-link">ICIT 2022, New Delhi — <a href="https://docs.google.com/presentation/d/1ZSrbJSGOIi3Da6MVqs85CYYQjUyZHfWa/edit" target="_blank">View Presentation</a></p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header fade-in">
+          <p class="section-label">Projects</p>
+          <h2 class="section-title">Selected Work</h2>
+        </div>
+
+        <div class="filter-bar fade-in">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="cv">Computer Vision</button>
+          <button class="filter-btn" data-filter="controls">Controls</button>
+          <button class="filter-btn" data-filter="planning">Planning</button>
+          <button class="filter-btn" data-filter="embedded">Embedded</button>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card fade-in" data-category="cv">
+            <div class="project-img">
+              <img src="./assets/images/stack-a-bot.gif" alt="Stack-A-Bot">
+              <div class="project-overlay">
+                <a href="https://github.com/harshal-14/STACK-A-BOT" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                  GitHub
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">STACK-A-BOT Perception Pipeline</h3>
+              <div class="project-tags">
+                <span class="project-tag">DUST3R</span>
+                <span class="project-tag">Point Cloud</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card fade-in" data-category="cv">
+            <div class="project-img">
+              <img src="./assets/images/out.gif" alt="Stereo Vision">
+              <div class="project-overlay">
+                <a href="https://github.com/lucifer2700" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                  GitHub
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">3D Stereo Vision for Pseudo LiDAR</h3>
+              <div class="project-tags">
+                <span class="project-tag">OpenCV</span>
+                <span class="project-tag">SGBM</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card fade-in" data-category="cv">
+            <div class="project-img">
+              <img src="./assets/images/Segmentation_final_video.gif" alt="Segmentation">
+              <div class="project-overlay">
+                <a href="https://github.com/Lucifer2700/UCBerkley_Segmentation" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                  GitHub
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Road Segmentation</h3>
+              <div class="project-tags">
+                <span class="project-tag">U-Net</span>
+                <span class="project-tag">BDD100K</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card fade-in" data-category="cv">
+            <div class="project-img">
+              <img src="./assets/images/Kalman Filter tracking.gif" alt="Kalman Filter">
+              <div class="project-overlay">
+                <a href="https://github.com/Lucifer2700/Kalman_filters" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                  GitHub
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">UKF Object Tracking</h3>
+              <div class="project-tags">
+                <span class="project-tag">Kalman</span>
+                <span class="project-tag">Python</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card fade-in" data-category="cv">
+            <div class="project-img">
+              <img src="./assets/images/NeRF.gif" alt="NeRF">
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Neural Radiance Fields</h3>
+              <div class="project-tags">
+                <span class="project-tag">NeRF</span>
+                <span class="project-tag">PyTorch</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card fade-in" data-category="cv">
+            <div class="project-img">
+              <img src="./assets/images/einstein-vision.gif" alt="Einstein Vision">
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Einstein Vision Pipeline</h3>
+              <div class="project-tags">
+                <span class="project-tag">YOLOv8</span>
+                <span class="project-tag">ZoeDepth</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card fade-in" data-category="controls planning">
+            <div class="project-img">
+              <img src="./assets/images/drone_traj.gif" alt="UAV Control">
+              <div class="project-overlay">
+                <a href="https://github.com/atreyabhat/RBE502_UAV_Interceptor" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                  GitHub
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">UAV Interception with LQR</h3>
+              <div class="project-tags">
+                <span class="project-tag">LQR</span>
+                <span class="project-tag">MATLAB</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card fade-in" data-category="controls">
+            <div class="project-img">
+              <img src="./assets/images/acc.gif" alt="ACC">
+              <div class="project-overlay">
+                <a href="https://github.com/harshal-14/Adaptive_Cruise_Control_System_using_MATLAB" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                  GitHub
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Adaptive Cruise Control</h3>
+              <div class="project-tags">
+                <span class="project-tag">MPC</span>
+                <span class="project-tag">Simulink</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card fade-in" data-category="planning">
+            <div class="project-img">
+              <img src="./assets/images/dep_cafe.gif" alt="DynaPRM">
+              <div class="project-overlay">
+                <a href="https://github.com/harshal-14/Dynamic-exploration-planning" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                  GitHub
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">DynaPRM Exploration</h3>
+              <div class="project-tags">
+                <span class="project-tag">PRM</span>
+                <span class="project-tag">ROS</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card fade-in" data-category="embedded">
+            <div class="project-img">
+              <img src="./assets/images/layout.jpg" alt="Vibration">
+              <div class="project-overlay">
+                <a href="https://drive.google.com/file/d/1RtwcnEjov10-Yr5GCeMcdahW4RewRdyT/view" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+                  Thesis
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">ML Vibration Analysis</h3>
+              <div class="project-tags">
+                <span class="project-tag">CNN</span>
+                <span class="project-tag">SVM</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card fade-in" data-category="cv">
+            <div class="project-img">
+              <img src="./assets/images/wo_ba_3.png" alt="SfM">
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Structure from Motion</h3>
+              <div class="project-tags">
+                <span class="project-tag">Bundle Adj</span>
+                <span class="project-tag">3D</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card fade-in" data-category="cv">
+            <div class="project-img">
+              <img src="./assets/images/styled_cat.jpg" alt="NST">
+              <div class="project-overlay">
+                <a href="https://github.com/harshal-14/Zero-shot_Sematic_NST" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                  GitHub
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Neural Style Transfer</h3>
+              <div class="project-tags">
+                <span class="project-tag">VGG19</span>
+                <span class="project-tag">PyTorch</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header fade-in">
+          <p class="section-label">Skills</p>
+          <h2 class="section-title">Technical Expertise</h2>
+        </div>
+        <div class="skills-grid fade-in">
+          <div class="skill-group">
+            <h3>Languages</h3>
+            <div class="skill-list">
+              <span class="skill-item">Python</span>
+              <span class="skill-item">C++</span>
+              <span class="skill-item">MATLAB</span>
+              <span class="skill-item">SQL</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Frameworks</h3>
+            <div class="skill-list">
+              <span class="skill-item">ROS2</span>
+              <span class="skill-item">PyTorch</span>
+              <span class="skill-item">OpenCV</span>
+              <span class="skill-item">TensorFlow</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Tools</h3>
+            <div class="skill-list">
+              <span class="skill-item">Git</span>
+              <span class="skill-item">Docker</span>
+              <span class="skill-item">AWS</span>
+              <span class="skill-item">Linux</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Simulators</h3>
+            <div class="skill-list">
+              <span class="skill-item">Gazebo</span>
+              <span class="skill-item">CARLA</span>
+              <span class="skill-item">AirSim</span>
+              <span class="skill-item">Simulink</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Awards -->
+    <section class="section" id="awards">
+      <div class="container">
+        <div class="section-header fade-in">
+          <p class="section-label">Recognition</p>
+          <h2 class="section-title">Awards & Honors</h2>
+        </div>
+        <div class="awards-grid">
+          <div class="award-card fade-in">
+            <p class="award-date">Feb 2022</p>
+            <h3 class="award-title">Startup Grant — IIT Ropar</h3>
+            <p class="award-desc">$12,000 grant for autonomous harvesting robot venture through TIF-AWaDH program.</p>
+          </div>
+          <div class="award-card fade-in">
+            <p class="award-date">Jan 2022</p>
+            <h3 class="award-title">IEEE VJTI — 1st Runner Up</h3>
+            <p class="award-desc">Technical paper on behavioral cloning for autonomous vehicles using imitation learning.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header fade-in">
+          <p class="section-label">Contact</p>
+          <h2 class="section-title">Get in Touch</h2>
+        </div>
+        <div class="contact-inner fade-in">
+          <p>I'm currently looking for full-time opportunities starting Spring 2025. Feel free to reach out.</p>
+          <div class="contact-buttons">
+            <a href="mailto:hbhat@wpi.edu" class="btn btn-primary">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+              Send Email
+            </a>
+            <a href="https://drive.google.com/file/d/1x0MoU150V4IZbSn_91N5LGM9TgvznD4u/view" target="_blank" class="btn btn-outline">Resume</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <!-- Footer -->
   <footer class="footer">
     <div class="container">
-      <div class="footer-content">
+      <div class="footer-inner">
         <div class="footer-links">
-          <a href="https://www.linkedin.com/in/harshal-bhat/" target="_blank" class="footer-link">LinkedIn</a>
-          <a href="https://github.com/harshal-14" target="_blank" class="footer-link">GitHub</a>
-          <a href="mailto:hbhat@wpi.edu" class="footer-link">Email</a>
+          <a href="https://linkedin.com/in/harshal-bhat" target="_blank">LinkedIn</a>
+          <a href="https://github.com/harshal-14" target="_blank">GitHub</a>
+          <a href="mailto:hbhat@wpi.edu">Email</a>
         </div>
-        <p class="footer-text">&copy; 2024 Harshal Bhat</p>
+        <p class="footer-copy">&copy; 2024 Harshal Bhat</p>
       </div>
     </div>
   </footer>
 
-  <button class="back-to-top" aria-label="Back to top">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18" />
-    </svg>
+  <button class="back-top" id="backTop" aria-label="Back to top">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"/></svg>
   </button>
 
   <script src="./js/main.js"></script>
