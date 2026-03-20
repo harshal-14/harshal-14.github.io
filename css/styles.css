@@ -63,7 +63,7 @@ html {
 
 body {
   font-family: var(--font-sans);
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.6;
   color: var(--text-primary);
   background: var(--bg-primary);
@@ -130,7 +130,7 @@ button {
 
 .logo {
   font-weight: 600;
-  font-size: 15px;
+  font-size: 17px;
   color: var(--text-primary);
   letter-spacing: -0.01em;
 }
@@ -142,7 +142,7 @@ button {
 }
 
 .nav-link {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 500;
   color: var(--text-tertiary);
   transition: color 0.2s;
@@ -233,7 +233,7 @@ button {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  padding: 120px 0 80px;
+  padding: 100px 0 60px;
 }
 
 .hero-content {
@@ -244,13 +244,13 @@ button {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 6px 12px;
+  padding: 8px 14px;
   background: var(--accent-muted);
   border-radius: 100px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
   color: var(--accent);
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
 .hero-tag::before {
@@ -276,9 +276,9 @@ button {
 }
 
 .hero-role {
-  font-size: 20px;
+  font-size: 22px;
   color: var(--text-secondary);
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .hero-role span {
@@ -286,25 +286,25 @@ button {
 }
 
 .hero-desc {
-  font-size: 16px;
+  font-size: 17px;
   color: var(--text-secondary);
   line-height: 1.7;
-  margin-bottom: 32px;
-  max-width: 520px;
+  margin-bottom: 24px;
+  max-width: 540px;
 }
 
 .hero-buttons {
   display: flex;
   gap: 12px;
-  margin-bottom: 48px;
+  margin-bottom: 32px;
 }
 
 .btn {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 10px 20px;
-  font-size: 13px;
+  padding: 12px 22px;
+  font-size: 14px;
   font-weight: 500;
   border-radius: 6px;
   transition: all 0.2s;
@@ -337,7 +337,7 @@ button {
 .hero-links {
   display: flex;
   gap: 24px;
-  padding-top: 24px;
+  padding-top: 20px;
   border-top: 1px solid var(--border);
 }
 
@@ -345,7 +345,7 @@ button {
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: 13px;
+  font-size: 14px;
   color: var(--text-tertiary);
   transition: color 0.2s;
 }
@@ -363,25 +363,25 @@ button {
    SECTIONS
    =========================================== */
 .section {
-  padding: 100px 0;
+  padding: 60px 0;
 }
 
 .section-header {
-  margin-bottom: 48px;
+  margin-bottom: 28px;
 }
 
 .section-label {
   font-family: var(--font-mono);
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 500;
   color: var(--accent);
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .section-title {
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 600;
   letter-spacing: -0.02em;
 }
@@ -391,8 +391,8 @@ button {
    =========================================== */
 .about-grid {
   display: grid;
-  grid-template-columns: 220px 1fr;
-  gap: 64px;
+  grid-template-columns: 200px 1fr;
+  gap: 48px;
   align-items: start;
 }
 
@@ -408,8 +408,9 @@ button {
 
 .about-text p {
   color: var(--text-secondary);
-  margin-bottom: 16px;
-  line-height: 1.75;
+  margin-bottom: 12px;
+  line-height: 1.7;
+  font-size: 16px;
 }
 
 .about-text strong {
@@ -418,21 +419,21 @@ button {
 
 .about-stats {
   display: flex;
-  gap: 48px;
-  margin-top: 32px;
-  padding-top: 24px;
+  gap: 40px;
+  margin-top: 24px;
+  padding-top: 20px;
   border-top: 1px solid var(--border);
 }
 
 .stat-number {
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 600;
   color: var(--text-primary);
   font-variant-numeric: tabular-nums;
 }
 
 .stat-label {
-  font-size: 13px;
+  font-size: 14px;
   color: var(--text-tertiary);
   margin-top: 2px;
 }
@@ -458,7 +459,7 @@ button {
 }
 
 .edu-card {
-  padding: 24px;
+  padding: 20px;
   background: var(--bg-secondary);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
@@ -471,26 +472,26 @@ button {
 
 .edu-date {
   font-family: var(--font-mono);
-  font-size: 11px;
+  font-size: 12px;
   color: var(--accent);
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .edu-degree {
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 600;
   margin-bottom: 4px;
 }
 
 .edu-school {
-  font-size: 13px;
+  font-size: 15px;
   color: var(--text-secondary);
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .edu-gpa {
   font-family: var(--font-mono);
-  font-size: 12px;
+  font-size: 13px;
   color: var(--text-tertiary);
 }
 
@@ -506,21 +507,21 @@ button {
 .exp-list {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 24px;
 }
 
 .exp-item {
   display: grid;
-  grid-template-columns: 48px 1fr;
-  gap: 20px;
+  grid-template-columns: 44px 1fr;
+  gap: 16px;
 }
 
 .exp-logo {
-  width: 48px;
-  height: 48px;
+  width: 44px;
+  height: 44px;
   background: #fff;
   border-radius: var(--radius);
-  padding: 8px;
+  padding: 6px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -536,38 +537,38 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .exp-title {
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 600;
 }
 
 .exp-company {
-  font-size: 13px;
+  font-size: 15px;
   color: var(--accent);
   margin-top: 2px;
 }
 
 .exp-date {
   font-family: var(--font-mono);
-  font-size: 11px;
+  font-size: 12px;
   color: var(--text-tertiary);
   white-space: nowrap;
 }
 
 .exp-desc {
-  margin-top: 12px;
+  margin-top: 10px;
 }
 
 .exp-desc li {
   position: relative;
   padding-left: 16px;
-  font-size: 14px;
+  font-size: 15px;
   color: var(--text-secondary);
   line-height: 1.6;
-  margin-bottom: 6px;
+  margin-bottom: 5px;
 }
 
 .exp-desc li::before {
@@ -587,11 +588,11 @@ button {
 .pub-list {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 12px;
 }
 
 .pub-item {
-  padding: 20px 24px;
+  padding: 16px 20px;
   background: var(--bg-secondary);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
@@ -605,13 +606,13 @@ button {
 .pub-badge {
   display: inline-block;
   font-family: var(--font-mono);
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   padding: 4px 8px;
   border-radius: 4px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .pub-badge.granted {
@@ -630,14 +631,14 @@ button {
 }
 
 .pub-title {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .pub-link {
-  font-size: 12px;
+  font-size: 14px;
   color: var(--text-tertiary);
 }
 
@@ -656,13 +657,13 @@ button {
 .filter-bar {
   display: flex;
   gap: 8px;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
   flex-wrap: wrap;
 }
 
 .filter-btn {
-  padding: 6px 14px;
-  font-size: 12px;
+  padding: 8px 16px;
+  font-size: 14px;
   font-weight: 500;
   color: var(--text-tertiary);
   background: transparent;
@@ -685,7 +686,7 @@ button {
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
+  gap: 14px;
 }
 
 .project-card {
@@ -761,11 +762,11 @@ button {
 }
 
 .project-info {
-  padding: 16px;
+  padding: 14px;
 }
 
 .project-title {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 600;
   margin-bottom: 8px;
   line-height: 1.4;
@@ -779,9 +780,9 @@ button {
 
 .project-tag {
   font-family: var(--font-mono);
-  font-size: 10px;
+  font-size: 11px;
   color: var(--text-tertiary);
-  padding: 3px 8px;
+  padding: 4px 8px;
   background: var(--bg-tertiary);
   border-radius: 4px;
 }
@@ -804,26 +805,26 @@ button {
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 32px;
+  gap: 24px;
 }
 
 .skill-group h3 {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 600;
   color: var(--text-tertiary);
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 .skill-list {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 8px;
 }
 
 .skill-item {
-  font-size: 14px;
+  font-size: 16px;
   color: var(--text-secondary);
   transition: color 0.2s;
 }
@@ -845,11 +846,11 @@ button {
 .awards-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 16px;
+  gap: 14px;
 }
 
 .award-card {
-  padding: 24px;
+  padding: 20px;
   background: var(--bg-secondary);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
@@ -857,19 +858,19 @@ button {
 
 .award-date {
   font-family: var(--font-mono);
-  font-size: 11px;
+  font-size: 12px;
   color: var(--accent);
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .award-title {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   margin-bottom: 6px;
 }
 
 .award-desc {
-  font-size: 13px;
+  font-size: 15px;
   color: var(--text-secondary);
   line-height: 1.5;
 }
@@ -889,14 +890,14 @@ button {
 }
 
 .contact-inner {
-  max-width: 480px;
+  max-width: 520px;
 }
 
 .contact-inner p {
-  font-size: 16px;
+  font-size: 17px;
   color: var(--text-secondary);
   line-height: 1.7;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
 .contact-buttons {
@@ -908,7 +909,7 @@ button {
    FOOTER
    =========================================== */
 .footer {
-  padding: 40px 0;
+  padding: 32px 0;
   border-top: 1px solid var(--border);
 }
 
@@ -924,7 +925,7 @@ button {
 }
 
 .footer-links a {
-  font-size: 13px;
+  font-size: 14px;
   color: var(--text-tertiary);
   transition: color 0.2s;
 }
@@ -934,7 +935,7 @@ button {
 }
 
 .footer-copy {
-  font-size: 12px;
+  font-size: 14px;
   color: var(--text-tertiary);
 }
 
