@@ -1,718 +1,844 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <meta content="IE=edge" http-equiv="X-UA-Compatible">
-  <meta content="width=device-width,initial-scale=1" name="viewport">
-  <meta content="description" name="description">
-  <meta name="google" content="notranslate" />
-  <meta content="Mashup templates have been developped by Orson.io team" name="author">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Harshal Bhat - Robotics Engineer specializing in Computer Vision, Control Theory, and Machine Learning. MS Robotics from WPI.">
+  <meta name="author" content="Harshal Bhat">
+  <meta name="keywords" content="Robotics Engineer, Computer Vision, Machine Learning, ROS2, Python, C++, WPI">
 
-  <!-- Disable tap highlight on IE -->
-  <meta name="msapplication-tap-highlight" content="no">
-  
+  <title>Harshal Bhat | Robotics Engineer</title>
+
+  <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
-  <link href="./assets/favicon.ico" rel="icon">
-  <style>
-    .work-experience1 {
-        display: flex;
-        justify-content: space-between; /* Adjusts space between items */
-        align-items: center; /* Aligns items vertically */
-        flex-wrap: wrap; /* Allows items to wrap onto the next line */
-    }
+  <link rel="icon" href="./assets/favicon.ico">
 
-    .work-experience1 > .row > .col-md-6, .col-md-7 {
-        flex: 1; /* Each child will take up equal space */
-        margin: 10px; /* Adds margin for spacing */
-        min-width: 300px; /* Minimum width for each column to prevent overlap */
-    }
-    </style>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <!-- Scroll Progress Indicator -->
+  <div class="scroll-progress" aria-hidden="true"></div>
 
-  <title>Harshal Bhat</title>  
+  <!-- Navigation -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">H<span>.</span>Bhat</a>
 
-<link href="./main.d8e0d294.css" rel="stylesheet"></head>
+      <div class="nav-links">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
 
-<body class="">
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+          <svg id="sun-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+          </svg>
+          <svg id="moon-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="display:none;">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+          </svg>
+        </button>
 
-<!-- Add your content of header -->
-<div class="background-color-layer" style="background-image: url('./assets/images/profile2.png')"
-></div>
-<main class="content-wrapper">
-  <header class="white-text-container section-container">
-    <div class="text-center">
-      <h1>Hi I'm Harshal Bhat!</h1>
-      <p>Robotics Engineer</p>
-      <p>
-        <a class="fa-icon fa-icon-2x" href="mailto:hbhat@wpi.edu" title="">
-          <i class="fa fa-envelope"></i>
-        </a>
-        <a class="fa-icon fa-icon-2x" href="https://www.linkedin.com/in/harshal-bhat/" title="">
-          <i class="fa fa-linkedin"></i>
-        </a>
-        <a class="fa-icon fa-icon-2x" href="https://drive.google.com/file/d/1x0MoU150V4IZbSn_91N5LGM9TgvznD4u/view?usp=sharing" title="Resume">
-          <i class="fa fa-file-text-o"></i>
-        </a>
-      </p>
+        <button class="mobile-menu-btn" aria-label="Toggle menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
     </div>
-  </header>
+  </nav>
 
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="hero-image-wrapper">
+        <div class="hero-image-ring"></div>
+        <img src="./assets/images/profile2.png" alt="Harshal Bhat" class="hero-image">
+      </div>
 
+      <p class="hero-greeting">Hi, I'm</p>
+      <h1 class="hero-name">Harshal <span class="gradient-text">Bhat</span></h1>
+      <p class="hero-title"><span class="typing-text">Robotics Engineer</span></p>
 
-<!-- Add your site or app content here -->
- 
- <div class="container">
-   <div class="row">
-       <div class="col-xs-12">
+      <div class="hero-buttons">
+        <a href="#contact" class="btn btn-primary">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+          </svg>
+          Get in Touch
+        </a>
+        <a href="#projects" class="btn btn-secondary">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
+          </svg>
+          View Projects
+        </a>
+      </div>
 
-            <!-- About Section -->
-            <section class="card">
-                <h2 style="color: #000; font-size: 2.5em; margin-bottom: 30px; border-bottom: 2px solid #009688;">About Me</h2>
-                <div style="display: flex; gap: 30px; flex-wrap: wrap;">
-                    <div style="flex: 0 0 300px;">
-                        <img src="./assets/images/profile2.png" alt="Profile Photo" style="width: 100%; height: auto; display: block; max-width: 300px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-                    </div>
-                    <div style="flex: 1; min-width: 300px;">
-                        <p style="color: #555; font-size: 1.1em; line-height: 1.6; margin-bottom: 20px;">
-                            Greetings! I'm Harshal, a dedicated graduate student pursuing a Master's degree in Robotics at Worcester Polytechnic Institute in MA. My journey into the fascinating realm of Robotics has ignited a profound enthusiasm within me, particularly in the domains of <b style="color: #444;">Control Theory, Perception, and Reinforcement Learning.</b>
-                        </p>
-                        <p style="color: #555; font-size: 1.1em; line-height: 1.6;">
-                            I am actively seeking spring 2025 Co-op and Full time opportunities. As a dynamic individual, I excel in roles that demand responsibility. My academic journey bears testament to my unwavering commitment, as I have consistently organized workshops and events, led numerous projects to success, and even secured a startup grant along the way.
-                        </p>
-                    </div>
-                </div>
-            </section>
+      <div class="hero-social">
+        <a href="mailto:hbhat@wpi.edu" class="social-link" aria-label="Email">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/harshal-bhat/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+          </svg>
+        </a>
+        <a href="https://github.com/harshal-14" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+          </svg>
+        </a>
+        <a href="https://drive.google.com/file/d/1x0MoU150V4IZbSn_91N5LGM9TgvznD4u/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Resume">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+          </svg>
+        </a>
+      </div>
+    </div>
 
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+      </svg>
+    </div>
+  </section>
 
-           <div class="card">
-               <div class="card-block">
-                   <h2>Education</h2>
-                   <div class="row">
-                       <div class="col-md-6">
-                           <div class="education-experience">
-                               <small class="date">May 2025</small>
-                               <h3 class="h5 date-title">Master's in Robotics Engineering</h3>
-                               <p>Worcester Polytechnic Institute</p>
-                               <p>GPA: 4.00</p>
-                           </div>
-                       </div>
-                       <div class="col-md-6">
-                           <div class="education-experience">
-                               <small class="date">May 2022</small>
-                               <h3 class="h5 date-title">Bachelor's of Technology in Mecahnical Engineering</h3>
-                               <p>Veermata Jijabai Technological Institute(VJTI), Mumbai University</p>
-                               <p>GPA: 8.28/10.0</p>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-           </div>
+  <!-- About Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="about-grid reveal">
+        <div class="about-image">
+          <img src="./assets/images/profile2.png" alt="Harshal Bhat">
+        </div>
+        <div class="about-content">
+          <h2>About <span class="gradient-text">Me</span></h2>
+          <p>
+            Greetings! I'm Harshal, a dedicated graduate student pursuing a Master's degree in Robotics at Worcester Polytechnic Institute in MA. My journey into the fascinating realm of Robotics has ignited a profound enthusiasm within me, particularly in the domains of <strong>Control Theory, Perception, and Reinforcement Learning.</strong>
+          </p>
+          <p>
+            I am actively seeking Spring 2025 Co-op and Full time opportunities. As a dynamic individual, I excel in roles that demand responsibility. My academic journey bears testament to my unwavering commitment, as I have consistently organized workshops and events, led numerous projects to success, and even secured a startup grant along the way.
+          </p>
 
-           <!-- <div class="card">
-               <div class="card-block">
-                   <h2>Work</h2>
-                   <div class="work-experience">
-                       <small class="date">July 2022 - Aug 2023</small>
-                       <h3 class="h5 date-title">Technology Consultant: Software Development, PwC India LLP</h3>
-                       <p>Worked extensively on AWS cloud migration and pipeline for 50 procedures Environment setup and end-to-end migration of 50 Qlik applications and formulated data visualizations. </p>
-                       <p>Contributed to Spark scripts in AWS Atena and optimized AWS Redshift performance by 60% faster query response. Gained familiarity with Docker, Bitbucket, JIRA, Confluence, and creating clean, modular, scalable software.</p>
-                   </div>
-
-                   <div class="work-experience">
-                       <small class="date">May 2021 - Aug 2021</small>
-                       <h3 class="h5 date-title">Research and Development Intern - IIT Ropar, India</h3>
-                       <p>Mentored by Dr. Dhiraj Mahajan and Dr. Pushpendra Singh.Designed and implemented an autonomous harvester capable of navigating in unknown environments and harvesting 15 different crop vegetables, utilizing AMCL and odometry data. Enabled navigation in unknown environments using IMU, GPS,& encoder data, integrated with ROS packages RVizSatellite &  mapviz connected to Google Maps API. Published 1 Patent at The Indian Patent Office Journal.</p>
-                   </div>
-
-                   <div class="work-experience">
-                        <small class="date">May 2024 - Present</small>
-                        <h3 class="h5 date-title">Machine Learning/ Product Intern - Magna International, Lowell MA </h3>
-                        <p>Engineered a simulator that accurately emulated robot-software HTTP and gRPC API communication protocols, enabling offshore team to efficiently develop UI codebase without physical robot access</p>
-                        <p>Increased overall development productivity by 10% through improved testing capabilities and reduced dependency on hardware</p>
-                    </div>   
-               </div>
-           </div> -->
-
-
-        <div class="card">
-            <div class="card-block">
-                <h2>Work</h2>
-                <div class="work-experience">
-                    <div class="row">
-                        <div class="col-md-2">
-                            <img src="./assets/images/pwc_logo.png" alt="PwC Logo" style="width:100%; max-width:100px;">
-                        </div>
-                        <div class="col-md-10">
-                            <small class="date">July 2022 - Aug 2023</small>
-                            <h3 class="h5 date-title">Technology Consultant: Software Development, PwC India LLP</h3>
-                            <p>Worked extensively on AWS cloud migration and pipeline for 50 procedures Environment setup and end-to-end migration of 50 Qlik applications and formulated data visualizations.</p>
-                            <p>Contributed to Spark scripts in AWS Atena and optimized AWS Redshift performance by 60% faster query response. Gained familiarity with Docker, Bitbucket, JIRA, Confluence, and creating clean, modular, scalable software.</p>
-                        </div>
-                    </div>
-                </div>
-        
-                <div class="work-experience">
-                    <div class="row">
-                        <div class="col-md-2">
-                            <img src="./assets/images/iit_ropar_logo.png" alt="IIT Ropar Logo" style="width:100%; max-width:100px;">
-                        </div>
-                        <div class="col-md-10">
-                            <small class="date">May 2021 - Aug 2021</small>
-                            <h3 class="h5 date-title">Research and Development Intern - IIT Ropar, India</h3>
-                            <p>Mentored by Dr. Dhiraj Mahajan and Dr. Pushpendra Singh. Designed and implemented an autonomous harvester capable of navigating in unknown environments and harvesting 15 different crop vegetables, utilizing AMCL and odometry data. Enabled navigation in unknown environments using IMU, GPS, & encoder data, integrated with ROS packages RVizSatellite & mapviz connected to Google Maps API. Published 1 Patent at The Indian Patent Office Journal.</p>
-                        </div>
-                    </div>
-                </div>
-        
-                <div class="work-experience">
-                    <div class="row">
-                        <div class="col-md-2">
-                            <img src="./assets/images/magna_logo.png" alt="Magna International Logo" style="width:100%; max-width:100px;">
-                        </div>
-                        <div class="col-md-10">
-                            <small class="date">May 2024 - Dec 2024</small>
-                            <h3 class="h5 date-title">Machine Learning/ Product Intern - Magna International, Lowell MA</h3>
-                            <p>Engineered a simulator that accurately emulated robot-software HTTP and gRPC API communication protocols, enabling offshore team to efficiently develop UI codebase without physical robot access</p>
-                            <p>Increased overall development productivity by 10% through improved testing capabilities and reduced dependency on hardware</p>
-                            <p> Designed and Implemented a collision avoidance system for forklift collision avoindance by fusing BLE sensors and Depth Camera feed and deployed on Jetson Nano</p>
-                            <p>Currently working on Novel SLAM to optimize ORB-SLAM3 by adding lightweight relocalization pipeline using structure graph</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="work-experience">
-                    <div class="row">
-                        <div class="col-md-2">
-                            <img src="./assets/images/magna_logo.png" alt="Magna International Logo" style="width:100%; max-width:100px;">
-                        </div>
-                        <div class="col-md-10">
-                            <small class="date">June 2025 - Present</small>
-                            <h3 class="h5 date-title">Embedded Firmware Engineer - Magna International, Lowell MA</h3>
-                            <p>Document and implement enhancements in Lift and PDB firmware for AMR's</p>
-                            <p>Troubleshoot Sick Safety LiDAR for PLC logic and add new features for safety for custom safety fields</p>
-                        </div>
-                    </div>
-                </div>
+          <div class="about-stats">
+            <div class="stat">
+              <div class="stat-value">4.0</div>
+              <div class="stat-label">GPA</div>
             </div>
-        </div> 
-
-           <div class="card">
-            <div class="card-block">
-                <h2>Patents and Publications</h2>
-                <div class="work-experience">
-                     <h3 class="h5 date-title">[2]	“An Autonomous System For Low Payload Gripper Changing Mechanism and its Method Thereof” </h3>
-                     <p>Granted - <a href="https://drive.google.com/file/d/1Urgpw1ZwmvY5-VOZqXX7rW7A161gB6T-/view?usp=drive_link">The Indian Patent Office Journal Dated 15/03/2024, Patent No. 528223 </a></p>
-                </div>
-              <div class="work-experience">
-                     <h3 class="h5 date-title">[2]	“Automatic Harvester”</h3>
-                     <p>Published(Under examination) - <a href="https://drive.google.com/file/d/1T6IYu5fffr7Db92-v-9Kk-8SU-qcPTuT/view?usp=drive_link">The Indian Patent Office Journal No. 12/2022, Dated 25/03/2022, Part 4,  pp. 92 Application no. (356209-001)</a></p>
-                </div>
-
-              <div class="work-experience">
-                     <h3 class="h5 date-title">[2]	“Vibration Analysis of Hydrodynamic Conical Journal Bearing and Fault Prediction using Machine Learning”</h3>
-                     <p>Speaker as 1st Author - <a href="https://docs.google.com/presentation/d/1ZSrbJSGOIi3Da6MVqs85CYYQjUyZHfWa/edit#slide=id.p1">In Proceedings of the International Conference on Industrial Tribology (ICIT),2022, New Delhi</a></p>
-                </div>
+            <div class="stat">
+              <div class="stat-value">16+</div>
+              <div class="stat-label">Projects</div>
             </div>
+            <div class="stat">
+              <div class="stat-value">2</div>
+              <div class="stat-label">Patents</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="section" id="education">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Education</h2>
+        <p class="section-subtitle">Academic foundation in robotics and engineering</p>
+      </div>
+
+      <div class="education-grid">
+        <div class="education-card reveal reveal-delay-1">
+          <span class="education-date">May 2025</span>
+          <h3 class="education-degree">Master's in Robotics Engineering</h3>
+          <p class="education-school">Worcester Polytechnic Institute</p>
+          <p class="education-gpa">GPA: 4.00</p>
         </div>
 
+        <div class="education-card reveal reveal-delay-2">
+          <span class="education-date">May 2022</span>
+          <h3 class="education-degree">Bachelor's of Technology in Mechanical Engineering</h3>
+          <p class="education-school">Veermata Jijabai Technological Institute (VJTI), Mumbai University</p>
+          <p class="education-gpa">GPA: 8.28/10.0</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-           <div class="card">
-               <div class="card-block">
-                   <h2>Research Experience</h2>
-                   <div class="work-experience">
-                       <small class="date">Aug 2023 - Dec 23</small>
-                       <h3 class="h5 date-title">Decentralised Multi-agent Formation control and simultaneous target localization - <a title="Professor at California Polytechnic Institute">Dr. Siavesh Farzan</a></h3>
-                       <p>Working on implementing novel localization algorithms based on consensus for multi-agent systems under localization errors like UAVs and warehouse robots. Implementing Unscented Distributed Kalman filtering approach taking robust measures into account.</p>
-                   </div>
+  <!-- Work Experience Section -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Work <span class="gradient-text">Experience</span></h2>
+        <p class="section-subtitle">Professional journey in robotics and software development</p>
+      </div>
 
-                   <div class="work-experience">
-                       <small class="date">Jun 2021 - Aug 2021</small>
-                       <h3 class="h5 date-title">Robot Research Intern - <a title="Professor at IIT Bombay">Dr. Arpita Sinha</a></h3>
-                       <p>My research internship at IIT Bombay gave me insights into Motion planning algorithms. My work was focused on implementation of quintic Bezier curves for smooth trajectory generartion for Autonomous Driving DRL. This was simulated in CARLA simulator</p>
-                   </div>
-               </div>
-           </div>
-           <div class="card">
-                <div class="card-block">
-                    <div class="row">
-                        <div class="col-md-2">
-                            <h2>Projects</h2>
-                        </div>
-                        <div class="col-md-10">
-                            <ul class="list-icons">
-                                <li><input type="button" class="btn btn-primary" value="Computer Vision" onclick="computer_vision()" /></li>
-                                <li><input type="button" class="btn btn-primary" value="Controls" onclick="controls()" /></li>
-                                <li><input type="button" class="btn btn-primary" value="Planning" onclick="show2()" /></li>
-                                <li><input type="button" class="btn btn-primary" value="Embedded and Hardware" onclick="hardware()" /></li>
-                            </ul>
-                        </div>
-                    </div>
+      <div class="timeline">
+        <!-- Magna - Embedded Firmware Engineer -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <img src="./assets/images/magna_logo.png" alt="Magna International" class="timeline-logo">
+            <span class="timeline-date">June 2025 - Present</span>
+            <h3 class="timeline-title">Embedded Firmware Engineer</h3>
+            <p class="timeline-company">Magna International, Lowell MA</p>
+            <ul class="timeline-desc">
+              <li>Document and implement enhancements in Lift and PDB firmware for AMRs</li>
+              <li>Troubleshoot Sick Safety LiDAR for PLC logic and add new features for safety for custom safety fields</li>
+            </ul>
+          </div>
+        </div>
 
-                    <div class="work-experience" id="stacking">
-                        <div class="row">
-                            <div class="col-md-5">
-                                <img src="./assets/images/stack-a-bot.gif" alt="Stacking pipeline" style="width:100%; max-width:600px; height:auto;">
-                            </div>
-                            <div class="col-md-7">
-                                <h3 class="h5">STACK-A-BOT Perception pipeline and Stability Analysis <a href="https://github.com/harshal-14/STACK-A-BOT.git"><u>Github</u></a></h3>
-                                <p>
-                                    Developed a robust perception pipeline that converts RGB camera feeds into 3D point clouds using the DUST3R foundational model, enabling camera-agnostic and multi-view point cloud generation. Implemented a coarse-to-fine point cloud processing sequence, including normal and horizontal surface extraction, segmentation, and surface clustering for accurate box and pallet identification. Designed and integrated a context-aware stability analysis module that evaluates box stacking stability using multi-factorial analysis (surface contact, topology, contact mechanics, and local environment). Utilized a context-adaptive weighting system to dynamically determine stability coefficients (α, β, γ, δ) for each stacking scenario, ensuring safe and reliable box placement. Demonstrated the pipeline on both single-layer and stacked box placements, providing real-time feedback for autonomous robotic stacking tasks.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-            
-                    <div class="work-experience" id="stereo">
-                        <div class="row">
-                            <div class="col-md-5">
-                                <img src="./assets/images/out.gif" alt="3D Stereo Vision" style="width:100%; max-width:600px; height:auto;">
-                            </div>
-                            <div class="col-md-7">
-                                <h3 class="h5">3D Stereo Vision for Pseudo Lidar - <a href="https://github.com/lucifer2700"><u>Github</u></a></h3>
-                                <p>I developed a 3D Computer Vision pipeline, implementing disparity maps, 3D obstacle estimation, and 3D Point Cloud creation from Stereo Images. Utilized Stereo SGBM algorithms from OpenCV and integrated camera calibration for depth mapping. Calculated disparity to depth and reprojected Image to 3D for obstacle detection along with distances.</p>
-                            </div>
-                        </div>
-                    </div>
-            
-                    <div class="work-experience" id="segmentation">
-                        <div class="row">
-                            <div class="col-md-5">
-                                <img src="./assets/images/Segmentation_final_video.gif" alt="Road Segmentation" style="width:100%; max-width:600px; height:auto;">
-                            </div>
-                            <div class="col-md-7">
-                                <h3 class="h5">Road Segmentation Model for Autonomous Driving - <a href="https://github.com/Lucifer2700/UCBerkley_Segmentation"><u>Github</u></a></h3>
-                                <p>I trained a Deep Learning model having encoder decoder and skip connections architecture for road segmentation for video feed. I used the Berkeley BDK100 dataset for training and validation. The test set was a custom video from actual roads in Paris. The vision system was able to segment drivable area with a 95% accuracy rate.</p>
-                            </div>
-                        </div>
-                    </div>
-            
-                    <div class="work-experience" id="kalman">
-                        <div class="row">
-                            <div class="col-md-5">
-                                <img src="./assets/images/Kalman Filter tracking.gif" alt="Kalman Filter Tracking" style="width:100%; max-width:600px; height:auto;">
-                            </div>
-                            <div class="col-md-7">
-                                <h3 class="h5">Bicycle Tracking Using Unscented Kalman Filter - <a href="https://github.com/Lucifer2700/Kalman_filters"><u>Github</u></a></h3>
-                                <p>This project focuses on utilizing the Kalman filter to track a bicycle's movement in a surveillance video captured from a stationary camera. The video contains several challenges, including linear movement, abrupt turns, occlusion by objects (e.g., light posts), and occasional issues with object detection. I aimed to enhance the tracking accuracy and robustness by implementing the Kalman filter.</p>
-                            </div>
-                        </div>
-                    </div>
-            
-                    <div class="work-experience" id="Zero-Shot_NST">
-                        <div class="row">
-                            <div class="col-md-5">
-                                <img src="./assets/images/styled_cat.jpg" alt="Zero-Shot Neural Style Transfer" style="width:100%; max-width:600px; height:auto;">
-                            </div>
-                            <div class="col-md-7">
-                                <h3 class="h5">Zero-Shot Semantic Neural Style Transfer - <a href="https://github.com/harshal-14/Zero-shot_Sematic_NST.git"><u>Github</u></a></h3>
-                                <p>We implemented a novel architecture for Neural Style Transfer based on Unseen content images. The content and style image are encoded using a VGG19 backbone, pretrained on ImageNet dataset. The default content-style attention map is generated using AdaAttN. The attention map generated is then fused with controlling signals from the segmentation mask of the content image. The stylized feature is computed given the updated attention map, and the final stylized image is generated by passing through a VGG decoder followed by new encoder and perpetual loss is calculated.</p>
-                            </div>
-                        </div>
-                    </div>
-            
-                    <div class="work-experience" id="droneLQR">
-                        <div class="row">
-                            <div class="col-md-5">
-                                <img src="./assets/images/drone_traj.gif" alt="Drone LQR" style="width:100%; max-width:600px; height:auto;">
-                            </div>
-                            <div class="col-md-7">
-                                <h3 class="h5">Robust Interception and Tracking for Quadrotor UAV - <a href="https://github.com/atreyabhat/RBE502_UAV_Interceptor"><u>Github</u></a></h3>
-                                <p>This project aimed at designing a controller for the quadrotor to intercept and catch an alien UAV in defined space. First, I added a Linear Quadratic controller for hovering and interception, tuned the controller using state-of-the-art techniques and simulated in MATLAB</p>
-                            </div>
-                        </div>
-                    </div>
-            
-                    <div class="work-experience" id="acc">
-                        <div class="row">
-                            <div class="col-md-5">
-                                <img src="./assets/images/acc.gif" alt="Adaptive Cruise Control" style="width:100%; max-width:600px; height:auto;">
-                            </div>
-                            <div class="col-md-7">
-                                <h3 class="h5">Adaptive Cruise Control System using MATLAB - <a href="https://github.com/harshal-14/Adaptive_Cruise_Control_System_using_MATLAB"><u>Github</u></a></h3>
-                                <p>I designed an Adaptive cruise control in MATLAB/Simulink using a linear Model Predictive Controller(MPC) using transfer functions to regulate the accelerator pedal sequence. The behavior of the follower vehicle was regulated by the set-point reference velocity and intervehicular distance, 3 different states were modeled in the stateflow designer</p>
-                            </div>
-                        </div>
-                    </div>
+        <!-- Magna - ML/Product Intern -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <img src="./assets/images/magna_logo.png" alt="Magna International" class="timeline-logo">
+            <span class="timeline-date">May 2024 - Dec 2024</span>
+            <h3 class="timeline-title">Machine Learning / Product Intern</h3>
+            <p class="timeline-company">Magna International, Lowell MA</p>
+            <ul class="timeline-desc">
+              <li>Engineered a simulator that accurately emulated robot-software HTTP and gRPC API communication protocols, enabling offshore team to efficiently develop UI codebase without physical robot access</li>
+              <li>Increased overall development productivity by 10% through improved testing capabilities and reduced dependency on hardware</li>
+              <li>Designed and Implemented a collision avoidance system for forklift by fusing BLE sensors and Depth Camera feed and deployed on Jetson Nano</li>
+              <li>Working on Novel SLAM to optimize ORB-SLAM3 by adding lightweight relocalization pipeline using structure graph</li>
+            </ul>
+          </div>
+        </div>
 
-                    <div class="work-experience" id="dep">
-                        <div class="row">
-                            <div class="col-md-5">
-                                <img src="./assets/images/dep_cafe.gif" alt="Dynamic Exploration Planning" style="width:100%; max-width:600px; height:auto;">
-                            </div>
-                            <div class="col-md-7">
-                                <h3 class="h5">DynaPRM: Efficient UAV Exploration in Dynamic Environments through Incremental Sampling PRM -<a href="https://github.com/harshal-14/Dynamic-exploration-planning.git"><u>Github</u></a></h3>
-                                <p>We, present DynaPRM, an incremental sampling-based probabilistic roadmap planner for UAV exploration in dynamic environments. Our approach addresses two key exploration challenges: efficient navigation of narrow passages and adaptive sampling density based on environment structure. DynaPRM detects and prioritizes exploration of confined spaces while employing sparse roadmap generation in open areas to optimize computational resources. The system integrates three core components: incremental PRM construction for viewpoint selection, multi-query planning for dynamic obstacle avoidance, and ESDF-based trajectory optimization for safe navigation. We evaluate the planner across diverse environments including confined spaces, maze-like structures, and open areas with moving obstacles. The results demonstrate the system's ability to maintain exploration coverage while adapting to different environment types. DynaPRM is particularly applicable to real-world scenarios such as search and rescue operations, where thorough exploration of complex, dynamic environments is essential</p>
-                            </div>
-                        </div>
-                    </div>
-            
-                    <div class="work-experience" id="conditional_monitoring">
-                        <div class="row">
-                            <div class="col-md-5">
-                                <img src="./assets/images/layout.jpg" alt="Vibration Analysis" style="width:100%; max-width:600px; height:auto;">
-                            </div>
-                            <div class="col-md-7">
-                                <h3 class="h5">Vibration Analysis of Hydrodynamic Conical Journal Bearing using Machine Learning - <a href="https://drive.google.com/file/d/1RtwcnEjov10-Yr5GCeMcdahW4RewRdyT/view?usp=sharing"><u>Undergrad Thesis</u></a></h3>
-                                <p>We performed conditional monitoring for a conical journal bearing using C++, MATLAB and various machine learning methods. We give a comparative analysis of CNNs, SVMs, RF, KNN methods for prediction of the Bearing health. A dynamic model of the lubrication system was also proposed in this thesis to explain the vibration signal peaks in the FFT for vibration data. The research was presented at International conference for Industrial Tribology.</p>
-                            </div>
-                        </div>
-                    </div>
-            
-                    <div class="work-experience" id="autopano">
-                        <div class="row">
-                            <div class="col-md-5">
-                                <img src="./assets/images/autopano.png" alt="AutoPano Example" style="width:100%; max-width:600px; height:auto;">
-                            </div>
-                            <div class="col-md-7">
-                                <h3 class="h5">AutoPano - Automatic Panorama Stitching</h3>
-                                <p>Implemented an automatic panorama stitching algorithm from scratch that seamlessly combines 10 and more images into a single panoramic view. The project utilizes feature detection, matching, and homography estimation to align and blend images effectively.</p>
-                            </div>
-                        </div>
-                    </div>
-            
-                    <div class="work-experience" id="sfm">
-                        <div class="row">
-                            <div class="col-md-5">
-                                <img src="./assets/images/wo_ba_3.png" alt="SfM Example of Unity Hall" style="width:100%; max-width:600px; height:auto;">
-                            </div>
-                            <div class="col-md-7">
-                                <h3 class="h5">Structure from Motion (SfM) - 3D Reconstruction of Unity Hall</h3>
-                                <p>Implemented a comprehensive Structure from Motion pipeline for 3D reconstruction from multiple images. The project includes feature matching, fundamental matrix estimation, camera pose estimation, and triangulation. A key focus was on implementing bundle adjustment to refine camera poses and 3D points simultaneously.</p>
-                                <p>Bundle adjustment was formulated as an optimization problem minimizing the reprojection error across all cameras and 3D points: min∑∑V_ij(||x_j - P_i X_j||^2)</p>
-                                <p>The implementation used a sparse Jacobian matrix for efficiency and the Trust Region Reflective algorithm for optimization. The final reconstruction of Unity Hall at WPI demonstrated significant improvement in accuracy, with the reprojection error reducing from 1.751347 to 1.015014 after bundle adjustment.</p>
-                            </div>
-                        </div>
-                    </div>
-            
-                    <div class="work-experience" id="nerf">
-                        <div class="row">
-                            <div class="col-md-5">
-                                <img src="./assets/images/NeRF.gif" alt="NeRF Lego Example" style="width:100%; max-width:600px; height:auto;">
-                            </div>
-                            <div class="col-md-7">
-                                <h3 class="h5">Neural Radiance Fields (NeRF) - Novel View Synthesis</h3>
-                                <p>Implemented a Neural Radiance Fields (NeRF) system for novel view synthesis. This project uses a fully connected deep network to represent a continuous 5D scene (3D spatial location and 2D viewing direction) and generate photorealistic images from new viewpoints.</p>
-                                <p>Key aspects of the implementation include:</p>
-                                <ul>
-                                    <li>Volume rendering with radiance fields using stratified sampling</li>
-                                    <li>Network architecture: MLP with ReLU activation, width 256, and skip connections</li>
-                                    <li>Positional encoding for improved fine detail representation</li>
-                                    <li>Training on synthetic (Lego, Ship) and real-world (Coffee Cup) datasets</li>
-                                </ul>
-                                <p>Results demonstrated significant improvement with positional encoding, achieving PSNR of 31.267 and SSIM of 0.9882 for the Lego model. The GIF above shows novel view synthesis for the Lego model after 200,000 iterations with positional encoding.</p>
-                            </div>
-                        </div>
-                    </div>
-            
-                    <div class="work-experience" id="einstein-vision">
-                        <div class="row">
-                            <div class="col-md-5">
-                                <img src="./assets/images/einstein-vision.gif" alt="Einstein Vision Example" style="width:100%; max-width:600px; height:auto;">
-                            </div>
-                            <div class="col-md-7">
-                                <h3 class="h5">Einstein Vision: Advanced Computer Vision Pipeline</h3>
-                                <p>Developed a comprehensive computer vision system integrating multiple detection and processing modules:</p>
-                                <ul>
-                                    <li><strong>3D Object Detection:</strong>
-                                        <ul>
-                                            <li>Implemented YOLOv8-Seg for primary object detection (vehicles, pedestrians, road signs, traffic lights)</li>
-                                            <li>Integrated DETIC for secondary object detection (brake lights, cones, poles, dustbins)</li>
-                                            <li>Used RAFT for optical flow analysis to determine object status (parked/moving)</li>
-                                        </ul>
-                                    </li>
-                                    <li><strong>Depth Processing:</strong>
-                                        <ul>
-                                            <li>Utilized ZoeDepth for accurate depth map generation</li>
-                                            <li>Implemented IDEA-OSX for advanced object processing</li>
-                                            <li>Integrated YOLo3D for 3D pose estimation of detected objects</li>
-                                        </ul>
-                                    </li>
-                                    <li><strong>3D Lane Detection:</strong>
-                                        <ul>
-                                            <li>Employed YOLOPv2 for lane detection</li>
-                                            <li>Implemented 3D projection onto Blender world</li>
-                                            <li>Added polynomial curve fitting for smooth lane representation</li>
-                                        </ul>
-                                    </li>
-                                    <li><strong>Scene Processing:</strong>
-                                        <ul>
-                                            <li>Developed Blender converter and parser for scene reconstruction</li>
-                                            <li>Created pipeline for generating side-by-side videos from sequential frames</li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                                <p>The system outputs detailed scene information including object positions, classifications, and 3D poses, making it suitable for autonomous driving applications and advanced scene understanding.</p>
-                            </div>
-                        </div>
-                    </div>
-            
-                    <div class="work-experience" id="deep-vio">
-                        <div class="row">
-                            <div class="col-md-5">
-                                <img src="./assets/images/deep-vio.jpg" alt="Deep VIO Example" style="width:100%; max-width:600px; height:auto;">
-                            </div>
-                            <div class="col-md-7">
-                                <h3 class="h5">Deep VIO: Visual-Inertial Odometry with Deep Learning - <a href="https://github.com/yourusername/deep-vio"><u>Github</u></a></h3>
-                                <p>Implemented a deep learning-based Visual-Inertial Odometry (VIO) system that fuses visual and inertial data for accurate robot localization. This project enhances traditional VIO methods with neural networks for improved performance in challenging environments.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <!-- PwC -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <img src="./assets/images/pwc_logo.png" alt="PwC" class="timeline-logo">
+            <span class="timeline-date">July 2022 - Aug 2023</span>
+            <h3 class="timeline-title">Technology Consultant: Software Development</h3>
+            <p class="timeline-company">PwC India LLP</p>
+            <ul class="timeline-desc">
+              <li>Worked extensively on AWS cloud migration and pipeline for 50 procedures. Environment setup and end-to-end migration of 50 Qlik applications and formulated data visualizations</li>
+              <li>Contributed to Spark scripts in AWS Athena and optimized AWS Redshift performance by 60% faster query response</li>
+              <li>Gained familiarity with Docker, Bitbucket, JIRA, Confluence, and creating clean, modular, scalable software</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- IIT Ropar -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <img src="./assets/images/iit_ropar_logo.png" alt="IIT Ropar" class="timeline-logo">
+            <span class="timeline-date">May 2021 - Aug 2021</span>
+            <h3 class="timeline-title">Research and Development Intern</h3>
+            <p class="timeline-company">IIT Ropar, India</p>
+            <ul class="timeline-desc">
+              <li>Mentored by Dr. Dhiraj Mahajan and Dr. Pushpendra Singh</li>
+              <li>Designed and implemented an autonomous harvester capable of navigating in unknown environments and harvesting 15 different crop vegetables, utilizing AMCL and odometry data</li>
+              <li>Enabled navigation in unknown environments using IMU, GPS, & encoder data, integrated with ROS packages RVizSatellite & mapviz connected to Google Maps API</li>
+              <li>Published 1 Patent at The Indian Patent Office Journal</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Patents & Publications Section -->
+  <section class="section" id="publications">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Patents & <span class="gradient-text">Publications</span></h2>
+        <p class="section-subtitle">Research contributions and intellectual property</p>
+      </div>
+
+      <div class="publications-list">
+        <div class="publication-item reveal">
+          <span class="publication-badge granted">Granted</span>
+          <h3 class="publication-title">"An Autonomous System For Low Payload Gripper Changing Mechanism and its Method Thereof"</h3>
+          <p class="publication-link">
+            <a href="https://drive.google.com/file/d/1Urgpw1ZwmvY5-VOZqXX7rW7A161gB6T-/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+              The Indian Patent Office Journal Dated 15/03/2024, Patent No. 528223
+            </a>
+          </p>
+        </div>
+
+        <div class="publication-item reveal">
+          <span class="publication-badge published">Under Examination</span>
+          <h3 class="publication-title">"Automatic Harvester"</h3>
+          <p class="publication-link">
+            <a href="https://drive.google.com/file/d/1T6IYu5fffr7Db92-v-9Kk-8SU-qcPTuT/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+              The Indian Patent Office Journal No. 12/2022, Dated 25/03/2022, Part 4, pp. 92 Application no. (356209-001)
+            </a>
+          </p>
+        </div>
+
+        <div class="publication-item reveal">
+          <span class="publication-badge published">Conference Paper</span>
+          <h3 class="publication-title">"Vibration Analysis of Hydrodynamic Conical Journal Bearing and Fault Prediction using Machine Learning"</h3>
+          <p class="publication-link">
+            Speaker as 1st Author -
+            <a href="https://docs.google.com/presentation/d/1ZSrbJSGOIi3Da6MVqs85CYYQjUyZHfWa/edit#slide=id.p1" target="_blank" rel="noopener noreferrer">
+              In Proceedings of the International Conference on Industrial Tribology (ICIT), 2022, New Delhi
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Research Experience Section -->
+  <section class="section" id="research">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Research <span class="gradient-text">Experience</span></h2>
+        <p class="section-subtitle">Academic research in multi-agent systems and autonomous vehicles</p>
+      </div>
+
+      <div class="research-grid">
+        <div class="research-card reveal reveal-delay-1">
+          <span class="research-date">Aug 2023 - Dec 2023</span>
+          <h3 class="research-title">Decentralised Multi-agent Formation Control and Simultaneous Target Localization</h3>
+          <p class="research-advisor">Advisor: Dr. Siavesh Farzan (California Polytechnic Institute)</p>
+          <p class="research-desc">
+            Working on implementing novel localization algorithms based on consensus for multi-agent systems under localization errors like UAVs and warehouse robots. Implementing Unscented Distributed Kalman filtering approach taking robust measures into account.
+          </p>
+        </div>
+
+        <div class="research-card reveal reveal-delay-2">
+          <span class="research-date">Jun 2021 - Aug 2021</span>
+          <h3 class="research-title">Robot Research Intern</h3>
+          <p class="research-advisor">Advisor: Dr. Arpita Sinha (IIT Bombay)</p>
+          <p class="research-desc">
+            My research internship at IIT Bombay gave me insights into Motion planning algorithms. My work was focused on implementation of quintic Bezier curves for smooth trajectory generation for Autonomous Driving DRL. This was simulated in CARLA simulator.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+        <p class="section-subtitle">A showcase of my technical work in robotics and computer vision</p>
+      </div>
+
+      <div class="filter-buttons reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="cv">Computer Vision</button>
+        <button class="filter-btn" data-filter="controls">Controls</button>
+        <button class="filter-btn" data-filter="planning">Planning</button>
+        <button class="filter-btn" data-filter="embedded">Embedded</button>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Stack-A-Bot -->
+        <div class="project-card reveal" data-category="cv">
+          <div class="project-image">
+            <img src="./assets/images/stack-a-bot.gif" alt="Stack-A-Bot Perception Pipeline">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="https://github.com/harshal-14/STACK-A-BOT.git" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                  </svg>
+                  GitHub
+                </a>
+              </div>
             </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">STACK-A-BOT Perception Pipeline & Stability Analysis</h3>
+            <div class="project-tags">
+              <span class="project-tag">DUST3R</span>
+              <span class="project-tag">Point Cloud</span>
+              <span class="project-tag">3D Vision</span>
+            </div>
+          </div>
+        </div>
 
-           <div class="card">
-               <div class="card-block">
-                   <h2>Technical Skills</h2>
-                   <div class="work-experience">
-                       <div class="row">
-                           <div class="col-md-2">
-                               <div class="language-experience">
-                                   <h3 class="h5">ROS2</h3>
-                               </div>
-                           </div>
-                           <div class="col-md-2">
-                               <div class="language-experience">
-                                   <h3 class="h5">MATLAB</h3>
-                               </div>
-                           </div>
-                           <div class="col-md-2">
-                               <div class="language-experience">
-                                   <h3 class="h5">AWS</h3>
-                               </div>
-                           </div>
-                           <div class="col-md-2">
-                               <div class="language-experience">
-                                   <h3 class="h5">ARGoS</h3>
-                               </div>
-                           </div>
-                           <div class="col-md-2">
-                               <div class="language-experience">
-                                   <h3 class="h5">AirSim</h3>
-                               </div>
-                           </div>
-                           <div class="col-md-2">
-                               <div class="language-experience">
-                                   <h3 class="h5">CARLA</h3>
-                               </div>
-                           </div>
-                       </div>
-                       <div class="row">
-                           <div class="col-md-2">
-                               <div class="language-experience">
-                                   <h3 class="h5">Python</h3>
-                               </div>
-                           </div>
-                           <div class="col-md-2">
-                               <div class="language-experience">
-                                   <h3 class="h5">C++</h3>
-                               </div>
-                           </div>
-                           <div class="col-md-2">
-                               <div class="language-experience">
-                                   <h3 class="h5">OpenCV</h3>
-                               </div>
-                           </div>
-                           <div class="col-md-2">
-                               <div class="language-experience">
-                                   <h3 class="h5">PL/SQL</h3>
-                               </div>
-                           </div>
-                           <!-- <div class="col-md-2">
-                               <div class="language-experience">
-                                   <h3 class="h5">Verilog</h3>
-                               </div>
-                           </div> -->
-                           <div class="col-md-2">
-                               <div class="language-experience">
-                                   <h3 class="h5">Git</h3>
-                               </div>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-           </div>
+        <!-- 3D Stereo Vision -->
+        <div class="project-card reveal" data-category="cv">
+          <div class="project-image">
+            <img src="./assets/images/out.gif" alt="3D Stereo Vision">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="https://github.com/lucifer2700" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                  </svg>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">3D Stereo Vision for Pseudo LiDAR</h3>
+            <div class="project-tags">
+              <span class="project-tag">OpenCV</span>
+              <span class="project-tag">Stereo SGBM</span>
+              <span class="project-tag">Depth</span>
+            </div>
+          </div>
+        </div>
 
-           <div class="card">
-               <div class="card-block">
-                   <h2>College Experience</h2>
-                   <div class="work-experience">
-                       <div class="row">
-                           <div class="col-md-6">
-                               <div class="work-experience">
-                                   <small class="date">Aug 2023 - Present</small>
-                                   <h3 class="h5 date-title">Graduate Student Researcher - WPI</h3>
-                               </div>
-                           </div>
-                           <div class="col-md-6">
-                               <div class="work-experience">
-                                   <small class="date">Nov 2019 - Dec 2019</small>
-                                   <h3 class="h5 date-title">Robosumo Head, Technovanza VJTI, Mumbai</h3>
-                               </div>
-                           </div>
-                       </div>
-                       <div class="row">
-                           <div class="col-md-6">
-                               <div class="work-experience">
-                                   <small class="date">Jan 2020 - Apr 2021</small>
-                                   <h3 class="h5 date-title">Core Team Member, SAE VJTI Racing</h3>
-                               </div>
-                           </div>
-                           <div class="col-md-6">
-                               <div class="work-experience">
-                                   <small class="date">Apr 2019 - Aug 2020</small>
-                                   <h3 class="h5 date-title">Internshala Studnet Parnter - VJTI Campus</h3>
-                               </div>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-           </div>
+        <!-- Road Segmentation -->
+        <div class="project-card reveal" data-category="cv">
+          <div class="project-image">
+            <img src="./assets/images/Segmentation_final_video.gif" alt="Road Segmentation">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="https://github.com/Lucifer2700/UCBerkley_Segmentation" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                  </svg>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Road Segmentation for Autonomous Driving</h3>
+            <div class="project-tags">
+              <span class="project-tag">Deep Learning</span>
+              <span class="project-tag">U-Net</span>
+              <span class="project-tag">BDK100</span>
+            </div>
+          </div>
+        </div>
 
-           <div class="card">
-               <div class="card-block">
-                   <h2>Honours</h2>
-                   <div class="row">
-                       <div class="col-md-6">
-                           <div class="education-experience">
-                               <small class="date">Jan 2022</small>
-                               <h3 class="h5 date-title">1st Runner up IEEE VJTI technical paper presentation</h3>
-                               <p>Best Paper for Robust behavioral cloning of human drivers using end-to-end imitation learning for autonomous vehicles</p>
-                           </div>
-                       </div>
-                       <div class="col-md-6">
-                           <div class="education-experience">
-                               <small class="date">Feb 2022</small>
-                               <h3 class="h5 date-title">Startup Grant, TIF-AWaDH, IIT Ropar</h3>
-                               <p>Received a startup grant of 12000 USD for autonomous harvesting robot business idea</p>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-           </div>
+        <!-- Kalman Filter -->
+        <div class="project-card reveal" data-category="cv">
+          <div class="project-image">
+            <img src="./assets/images/Kalman Filter tracking.gif" alt="Kalman Filter Tracking">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="https://github.com/Lucifer2700/Kalman_filters" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                  </svg>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Bicycle Tracking with Unscented Kalman Filter</h3>
+            <div class="project-tags">
+              <span class="project-tag">UKF</span>
+              <span class="project-tag">Tracking</span>
+              <span class="project-tag">Python</span>
+            </div>
+          </div>
+        </div>
 
-       </div>
-   </div>
- </div>
+        <!-- Neural Style Transfer -->
+        <div class="project-card reveal" data-category="cv">
+          <div class="project-image">
+            <img src="./assets/images/styled_cat.jpg" alt="Neural Style Transfer">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="https://github.com/harshal-14/Zero-shot_Sematic_NST.git" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                  </svg>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Zero-Shot Semantic Neural Style Transfer</h3>
+            <div class="project-tags">
+              <span class="project-tag">VGG19</span>
+              <span class="project-tag">AdaAttN</span>
+              <span class="project-tag">PyTorch</span>
+            </div>
+          </div>
+        </div>
 
-</main>
-<footer class="footer-container white-text-container text-center">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12">
-        <p>
-          <a class="fa-icon fa-icon-2x" href="mailto:hbhat@wpi.edu" title="">
-            <i class="fa fa-envelope"></i>
+        <!-- Drone LQR -->
+        <div class="project-card reveal" data-category="controls planning">
+          <div class="project-image">
+            <img src="./assets/images/drone_traj.gif" alt="Drone LQR Control">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="https://github.com/atreyabhat/RBE502_UAV_Interceptor" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                  </svg>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Robust UAV Interception and Tracking</h3>
+            <div class="project-tags">
+              <span class="project-tag">LQR</span>
+              <span class="project-tag">MATLAB</span>
+              <span class="project-tag">Quadrotor</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Adaptive Cruise Control -->
+        <div class="project-card reveal" data-category="controls">
+          <div class="project-image">
+            <img src="./assets/images/acc.gif" alt="Adaptive Cruise Control">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="https://github.com/harshal-14/Adaptive_Cruise_Control_System_using_MATLAB" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                  </svg>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Adaptive Cruise Control System</h3>
+            <div class="project-tags">
+              <span class="project-tag">MPC</span>
+              <span class="project-tag">Simulink</span>
+              <span class="project-tag">Stateflow</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dynamic Exploration Planning -->
+        <div class="project-card reveal" data-category="planning">
+          <div class="project-image">
+            <img src="./assets/images/dep_cafe.gif" alt="Dynamic Exploration Planning">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="https://github.com/harshal-14/Dynamic-exploration-planning.git" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                  </svg>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">DynaPRM: UAV Exploration in Dynamic Environments</h3>
+            <div class="project-tags">
+              <span class="project-tag">PRM</span>
+              <span class="project-tag">ESDF</span>
+              <span class="project-tag">ROS</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Conditional Monitoring -->
+        <div class="project-card reveal" data-category="embedded">
+          <div class="project-image">
+            <img src="./assets/images/layout.jpg" alt="Vibration Analysis">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="https://drive.google.com/file/d/1RtwcnEjov10-Yr5GCeMcdahW4RewRdyT/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  </svg>
+                  Thesis
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Vibration Analysis using Machine Learning</h3>
+            <div class="project-tags">
+              <span class="project-tag">CNN</span>
+              <span class="project-tag">SVM</span>
+              <span class="project-tag">FFT</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- AutoPano -->
+        <div class="project-card reveal" data-category="cv">
+          <div class="project-image">
+            <img src="./assets/images/autopano.png" alt="AutoPano">
+            <div class="project-overlay">
+              <div class="project-links">
+                <span class="project-link">Project</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">AutoPano - Automatic Panorama Stitching</h3>
+            <div class="project-tags">
+              <span class="project-tag">Homography</span>
+              <span class="project-tag">RANSAC</span>
+              <span class="project-tag">Blending</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Structure from Motion -->
+        <div class="project-card reveal" data-category="cv">
+          <div class="project-image">
+            <img src="./assets/images/wo_ba_3.png" alt="Structure from Motion">
+            <div class="project-overlay">
+              <div class="project-links">
+                <span class="project-link">Project</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Structure from Motion - 3D Reconstruction</h3>
+            <div class="project-tags">
+              <span class="project-tag">Bundle Adj.</span>
+              <span class="project-tag">Triangulation</span>
+              <span class="project-tag">SfM</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- NeRF -->
+        <div class="project-card reveal" data-category="cv">
+          <div class="project-image">
+            <img src="./assets/images/NeRF.gif" alt="NeRF">
+            <div class="project-overlay">
+              <div class="project-links">
+                <span class="project-link">Project</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Neural Radiance Fields (NeRF)</h3>
+            <div class="project-tags">
+              <span class="project-tag">NeRF</span>
+              <span class="project-tag">MLP</span>
+              <span class="project-tag">PyTorch</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Einstein Vision -->
+        <div class="project-card reveal" data-category="cv">
+          <div class="project-image">
+            <img src="./assets/images/einstein-vision.gif" alt="Einstein Vision">
+            <div class="project-overlay">
+              <div class="project-links">
+                <span class="project-link">Project</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Einstein Vision: Advanced CV Pipeline</h3>
+            <div class="project-tags">
+              <span class="project-tag">YOLOv8</span>
+              <span class="project-tag">ZoeDepth</span>
+              <span class="project-tag">3D Lane</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Deep VIO -->
+        <div class="project-card reveal" data-category="cv">
+          <div class="project-image">
+            <img src="./assets/images/deep-vio.jpg" alt="Deep VIO">
+            <div class="project-overlay">
+              <div class="project-links">
+                <span class="project-link">Project</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Deep VIO: Visual-Inertial Odometry</h3>
+            <div class="project-tags">
+              <span class="project-tag">VIO</span>
+              <span class="project-tag">Deep Learning</span>
+              <span class="project-tag">IMU</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+        <p class="section-subtitle">Technologies and tools I work with</p>
+      </div>
+
+      <div class="skills-container">
+        <div class="skill-category reveal">
+          <h3 class="skill-category-title">Languages</h3>
+          <div class="skill-chips">
+            <span class="skill-chip">Python</span>
+            <span class="skill-chip">C++</span>
+            <span class="skill-chip">PL/SQL</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <h3 class="skill-category-title">Frameworks & Libraries</h3>
+          <div class="skill-chips">
+            <span class="skill-chip">ROS2</span>
+            <span class="skill-chip">OpenCV</span>
+            <span class="skill-chip">PyTorch</span>
+            <span class="skill-chip">TensorFlow</span>
+            <span class="skill-chip">NumPy</span>
+            <span class="skill-chip">Pandas</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <h3 class="skill-category-title">Tools & Platforms</h3>
+          <div class="skill-chips">
+            <span class="skill-chip">Git</span>
+            <span class="skill-chip">Docker</span>
+            <span class="skill-chip">AWS</span>
+            <span class="skill-chip">MATLAB</span>
+            <span class="skill-chip">Simulink</span>
+            <span class="skill-chip">Linux</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <h3 class="skill-category-title">Simulators</h3>
+          <div class="skill-chips">
+            <span class="skill-chip">CARLA</span>
+            <span class="skill-chip">AirSim</span>
+            <span class="skill-chip">ARGoS</span>
+            <span class="skill-chip">Gazebo</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- College Experience & Honours -->
+  <section class="section" id="honours">
+    <div class="container">
+      <div class="split-section">
+        <div class="split-card reveal">
+          <h3>College Experience</h3>
+
+          <div class="split-item">
+            <span class="split-date">Aug 2023 - Present</span>
+            <h4 class="split-title">Graduate Student Researcher - WPI</h4>
+          </div>
+
+          <div class="split-item">
+            <span class="split-date">Nov 2019 - Dec 2019</span>
+            <h4 class="split-title">Robosumo Head, Technovanza VJTI, Mumbai</h4>
+          </div>
+
+          <div class="split-item">
+            <span class="split-date">Jan 2020 - Apr 2021</span>
+            <h4 class="split-title">Core Team Member, SAE VJTI Racing</h4>
+          </div>
+
+          <div class="split-item">
+            <span class="split-date">Apr 2019 - Aug 2020</span>
+            <h4 class="split-title">Internshala Student Partner - VJTI Campus</h4>
+          </div>
+        </div>
+
+        <div class="split-card reveal">
+          <h3>Honours & Awards</h3>
+
+          <div class="split-item">
+            <span class="split-date">Jan 2022</span>
+            <h4 class="split-title">1st Runner up IEEE VJTI Technical Paper Presentation</h4>
+            <p class="split-desc">Best Paper for Robust behavioral cloning of human drivers using end-to-end imitation learning for autonomous vehicles</p>
+          </div>
+
+          <div class="split-item">
+            <span class="split-date">Feb 2022</span>
+            <h4 class="split-title">Startup Grant, TIF-AWaDH, IIT Ropar</h4>
+            <p class="split-desc">Received a startup grant of $12,000 USD for autonomous harvesting robot business idea</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Get in <span class="gradient-text">Touch</span></h2>
+      </div>
+
+      <div class="contact-content reveal">
+        <p>I'm currently looking for Spring 2025 Co-op and Full-time opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+
+        <div class="contact-buttons">
+          <a href="mailto:hbhat@wpi.edu" class="btn btn-primary">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+            Email Me
           </a>
-          <a class="fa-icon fa-icon-2x" href="https://www.linkedin.com/in/harshal-bhat/" title="">
-            <i class="fa fa-linkedin"></i>
+          <a href="https://drive.google.com/file/d/1x0MoU150V4IZbSn_91N5LGM9TgvznD4u/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+            </svg>
+            View Resume
           </a>
-          <a class="fa-icon fa-icon-2x" href="https://drive.google.com/file/d/1x0MoU150V4IZbSn_91N5LGM9TgvznD4u/view?usp=sharing" title="Resume">
-            <i class="fa fa-file-text-o"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-social">
+          <a href="mailto:hbhat@wpi.edu" class="social-link" aria-label="Email">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
           </a>
+          <a href="https://www.linkedin.com/in/harshal-bhat/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+            </svg>
+          </a>
+          <a href="https://github.com/harshal-14" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+            </svg>
+          </a>
+        </div>
+
+        <p class="footer-text">
+          &copy; 2024 Harshal Bhat. All rights reserved.
         </p>
       </div>
     </div>
-  </div>
-</footer>
+  </footer>
 
-<script>
+  <!-- Back to Top Button -->
+  <button class="back-to-top" aria-label="Back to top">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+    </svg>
+  </button>
 
-    function computer_vision() {
-        // Show Computer Vision projects
-        const showProjects = ['stacking', 'stereo', 'segmentation', 'kalman', 'Zero-Shot_NST', 'autopano', 'sfm', 'nerf', 'einstein-vision', 'deep-vio'];
-        const hideProjects = ['acc', 'conditional_monitoring', 'droneLQR', 'autonomous_harvester', 'multiagent', 'dep'];
-        
-        // Show relevant projects
-        showProjects.forEach(id => {
-            const element = document.getElementById(id);
-            if (element) element.style.display = "block";
-        });
-        
-        // Hide irrelevant projects
-        hideProjects.forEach(id => {
-            const element = document.getElementById(id);
-            if (element) element.style.display = "none";
-        });
-    }
-    
-    function controls() {
-        // Show Controls projects
-        const showProjects = ['acc', 'droneLQR', 'multiagent'];
-        const hideProjects = ['stacking', 'stereo', 'segmentation', 'kalman', 'Zero-Shot_NST', 'conditional_monitoring',
-                             'autonomous_harvester', 'autopano', 'sfm', 'nerf', 'einstein-vision', 'deep-vio', 'dep'];
-        
-        // Show relevant projects
-        showProjects.forEach(id => {
-            const element = document.getElementById(id);
-            if (element) element.style.display = "block";
-        });
-        
-        // Hide irrelevant projects
-        hideProjects.forEach(id => {
-            const element = document.getElementById(id);
-            if (element) element.style.display = "none";
-        });
-    }
-    
-    function show2() { // Planning
-        // Show Planning projects
-        const showProjects = ['droneLQR', 'multiagent', 'dep'];
-        const hideProjects = ['stacking', 'stereo', 'segmentation', 'kalman', 'Zero-Shot_NST', 'acc', 'conditional_monitoring',
-                             'autonomous_harvester', 'autopano', 'sfm', 'nerf', 'einstein-vision', 'deep-vio'];
-        
-        // Show relevant projects
-        showProjects.forEach(id => {
-            const element = document.getElementById(id);
-            if (element) element.style.display = "block";
-        });
-        
-        // Hide irrelevant projects
-        hideProjects.forEach(id => {
-            const element = document.getElementById(id);
-            if (element) element.style.display = "none";
-        });
-    }
-    
-    function hardware() {
-        // Show Hardware projects
-        const showProjects = ['conditional_monitoring', 'autonomous_harvester'];
-        const hideProjects = ['stacking', 'stereo', 'segmentation', 'kalman', 'Zero-Shot_NST', 'acc', 'droneLQR',
-                             'autopano', 'sfm', 'nerf', 'einstein-vision', 'deep-vio', 'multiagent', 'dep'];
-        
-        // Show relevant projects
-        showProjects.forEach(id => {
-            const element = document.getElementById(id);
-            if (element) element.style.display = "block";
-        });
-        
-        // Hide irrelevant projects
-        hideProjects.forEach(id => {
-            const element = document.getElementById(id);
-            if (element) element.style.display = "none";
-        });
-    }
-</script>
-
-
-<script>
-  document.addEventListener("DOMContentLoaded", function (event) {
-     scrollRevelation('.card');
-  });
-</script>
-<!-- Google Analytics: change UA-XXXXX-X to be your site's ID 
-
-<script>
-  (function (i, s, o, g, r, a, m) {
-    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-      (i[r].q = i[r].q || []).push(arguments)
-    }, i[r].l = 1 * new Date(); a = s.createElement(o),
-      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-  ga('create', 'UA-XXXXX-X', 'auto');
-  ga('send', 'pageview');
-</script>
-
---><script type="text/javascript" src="./main.bc58148c.js"></script></body>
-
+  <!-- JavaScript -->
+  <script src="./js/main.js"></script>
+</body>
 </html>
